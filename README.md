@@ -1,2 +1,2 @@
-# Dev
+# DevOps
 exercise
