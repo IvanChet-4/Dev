@@ -101,5 +101,8 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED             ST
 
 Страница в браузере и по курл снова отображается.
 
+docker rm -f $(docker ps -a -q)
+
+
 
 
