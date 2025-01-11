@@ -1,3 +1,13 @@
-#Homework
-#Task 1
+Homework
+
+Task 1
 docker pull 4ivan/custom-nginx
+
+Task2
+
+Task3
+
+docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)
+Была выведена информация и о запущенных контейнерах и об образах   (результат сумма вывода команд: "docker ps"  и  "docker images")
+
+
