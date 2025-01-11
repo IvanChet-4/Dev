@@ -1,11 +1,47 @@
 Homework
 
 Task 1
+
+Зарегистрировался в докер хаб
 docker pull 4ivan/custom-nginx
+
+Для замены страницы: cp index.html aac9755eea9b:/usr/share/nginx/html/index.html
+
+Версия докера
+Client: Docker Engine - Community
+ Version:           27.4.1
+ API version:       1.47
+ Go version:        go1.22.10
+ Git commit:        b9d17ea
+ Built:             Tue Dec 17 15:45:42 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          27.4.1
+  API version:      1.47 (minimum version 1.24)
+  Go version:       go1.22.10
+  Git commit:       c710b88
+  Built:            Tue Dec 17 15:45:42 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.7.24
+  GitCommit:        88bf19b2105c8b17560993bee28a01ddc2f97182
+ runc:
+  Version:          1.2.2
+  GitCommit:        v1.2.2-0-g7cb3632
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+
 
 Task2
 
-docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx
+Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2
+Чтобы переименовать контейнер: docker rename my_container my_new_container
 
 date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:8080 ; docker logs custom-nginx-t2 -n1 ; docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 
