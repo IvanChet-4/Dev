@@ -45,10 +45,26 @@ Task2
 
 date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:8080 ; docker logs custom-nginx-t2 -n1 ; docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 
+url 127.0.0.1:8080
+<html>
+<head> Hey, Netology</head>
+<body>
+ <h1>I will be DevOps Engineer !</h1>
+<body>
+</html>
+
 
 Task3
 
+docker attach ichetverkin-custom-nginx-t2
+ctrl + c
 docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)
 Была выведена информация и о запущенных контейнерах и об образах   (результат сумма вывода команд: "docker ps"  и  "docker images")
 
+Контейер остановился т.к. получил сигнал на уничтожение SIGINT forcefully exiting 
 
+docker start 06dbac9c3ad7
+
+Чтобы контейнер не останавливался нужно отключить перенаправление сигналов:
+docker attach --sig-proxy=false ichetverkin-custom-nginx-t2
+Выход три раза ctrl + c
