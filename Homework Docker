@@ -72,7 +72,7 @@ docker attach --sig-proxy=false ichetverkin-custom-nginx-t2
 docker exec -it 06dbac9c3ad7 /bin/bash
 apt update
 apt install nano vim
-Заменил на 81 порт 
+Заменил на 81 порт
 oot@06dbac9c3ad7:/# curl http://127.0.0.1:80 
 curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused
 root@06dbac9c3ad7:/#  curl http://127.0.0.1:81
@@ -82,3 +82,24 @@ root@06dbac9c3ad7:/#  curl http://127.0.0.1:81
  <h1>I will be DevOps Engineer !</h1>
 <body>
 </html>
+
+Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках 
+docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS         PORTS                                     NAMES
+06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   48 minutes ago   Up 3 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   ichetverkin-custom-nginx-t2
+
+Меняем порт в настройках контейнера
+docker stop 06dbac9c3ad7
+systemctl stop docker
+/var/lib/docker/containers/<ID>/
+config.v2.json тут "PortBindings"
+hostconfig.json тут "ExposedPorts"
+
+docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES
+06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2
+
+Страница в браузере и по курл снова отображается.
+
+
+
