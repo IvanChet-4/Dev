@@ -68,3 +68,17 @@ docker start 06dbac9c3ad7
 Чтобы контейнер не останавливался нужно отключить перенаправление сигналов:
 docker attach --sig-proxy=false ichetverkin-custom-nginx-t2
 Выход три раза ctrl + c
+
+docker exec -it 06dbac9c3ad7 /bin/bash
+apt update
+apt install nano vim
+Заменил на 81 порт 
+oot@06dbac9c3ad7:/# curl http://127.0.0.1:80 
+curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused
+root@06dbac9c3ad7:/#  curl http://127.0.0.1:81
+<html>
+<head> Hey, Netology</head>
+<body>
+ <h1>I will be DevOps Engineer !</h1>
+<body>
+</html>
