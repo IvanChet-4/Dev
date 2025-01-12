@@ -180,19 +180,27 @@ docker rm -f $(docker ps -a -q)
 <h2>Задача 4</h2><br>
 <br>
 
+Скачал образы с докерхаб и создал директорию на хостовой машине<br>
+
 ```
 docker pull centos
 docker pull debian
-mkdir /home/user7/z4
+mkdir /home/user7/Z4
 ```
+
+Создал директорию с большой буквы и столкнулся с ошибкой при запуске:<br>
 
 ```
 docker run -t -i -v /home/user7/Z4:/data  centos /bin/bash
 docker: invalid reference format: repository name (/home/user7/Z4) must be lowercase.
 ```
 
+Попробовал запустить без указания порт маппинга, доступ в интернет отсутсвовал.<br>
+Итоговые команды запуска centos и debian (с доступом в интернет):<br>
 
 ```
-docker run -t -i -v /home/user7/Z4:/data  centos /bin/bash
+docker run -p 8080:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  centos /bin/bash
+docker run -p 8081:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  debian /bin/bash
 ```
-
+Создал на хостовой машине файл - файл виден и из контейнеров.<br>
+Подключился к первому контейнеру и создал файл - файл также виден и из контейнеров и с хостовой машины.<br>
