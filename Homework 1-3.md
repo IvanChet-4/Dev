@@ -67,12 +67,16 @@ oot@06dbac9c3ad7:/# curl http://127.0.0.1:80 <br>
 curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused<br>
 root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
 <code>
+
+'''
 <html>
 <head> Hey, Netology</head>
 <body>
  <h1>I will be DevOps Engineer !</h1>
 </body>
 </html>
+'''
+
 </code>
 <br>
 Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках <br>
