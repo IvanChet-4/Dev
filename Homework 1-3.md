@@ -195,7 +195,7 @@ docker run -t -i -v /home/user7/Z4:/data  centos /bin/bash
 docker: invalid reference format: repository name (/home/user7/Z4) must be lowercase.
 ```
 
-Попробовал запустить без указания порт маппинга, доступ в интернет отсутсвовал.<br>
+Попробовал запустить контейнеры без указания порт маппинга, доступ в интернет отсутсвовал.<br>
 Итоговые команды запуска centos и debian (с доступом в интернет):<br>
 
 ```
