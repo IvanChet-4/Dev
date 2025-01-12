@@ -98,21 +98,31 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED          STATU
 
 <br>
 Меняем порт в настройках контейнера <br>
-docker stop 06dbac9c3ad7<br>
-systemctl stop docker<br>
-/var/lib/docker/containers/<ID>/<br>
+
+```
+docker stop 06dbac9c3ad7
+systemctl stop docker
+```
+Заходим в директорию:<br>
+
+```
+/var/lib/docker/containers/<ID>/
+```
+
 config.v2.json тут редактируем параметры "PortBindings"<br>
 hostconfig.json тут редактируем параметры "ExposedPorts"<br>
 <br>
-docker ps<br>
+После внесенных изменений запускаем докер, стартуем наш контейнер и делаем docker ps<br>
+ 
 ```
 CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES
 06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2
 ```
-<br>
+
 Страница и в браузере и по курл снова отображается.<br>
 <br>
 Для удаления запущенного контенейра:<br>
+ 
 ```
 docker rm -f $(docker ps -a -q)
 ```
