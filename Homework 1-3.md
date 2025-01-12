@@ -1,7 +1,7 @@
 <h1>Homework 1-3</h1> <br>
 <br>
 <br>
-<h2>Task 1</h2><br>
+<h2>Задача 1</h2><br>
 <br>
 Зарегистрировался в докер хаб и создал репозиторий https://hub.docker.com/repository/docker/4ivan/custom-nginx <br>
 Затем скачал к себе образ nginx, запустил docker container и изменил в нем страничку index.html <br>
@@ -42,7 +42,7 @@ Server: Docker Engine - Community<br>
 
 <br>
 <br>
-<h2>Task2</h2><br>
+<h2>Задача 2</h2><br>
 <br>
 Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2<br>
 ![Запуск контейнера](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0.png)<br>
@@ -66,11 +66,11 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 ![Результат в браузере](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%20%D0%B2%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5.png)
 <br>
 <br>
-<h2>Task3</h2><br>
+<h2>Задача 3</h2><br>
 <br>
 docker attach ichetverkin-custom-nginx-t2<br>
 ctrl + c<br>
-docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)
+docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)<br>
 Была выведена информация и о запущенных контейнерах и об образах   (результат сумма вывода команд: "docker ps"  и  "docker images")<br>
 <br>
 Контейер остановился т.к. получил сигнал на уничтожение SIGINT forcefully exiting <br>
