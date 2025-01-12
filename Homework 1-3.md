@@ -220,7 +220,7 @@ docker run -p 8081:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  debian /bin/b
 
 <br>
 <br>
-<h2>Задача 4</h2><br>
+<h2>Задача 5</h2><br>
 <br>
 
 Создаем директории и файлы по заданию. Список команд: <br>
