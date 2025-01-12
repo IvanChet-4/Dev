@@ -70,13 +70,23 @@ docker attach --sig-proxy=false ichetverkin-custom-nginx-t2<br>
 Отключение от потоков контейнера три раза: ctrl + c<br>
 <br>
 Подключаемся к контейнеру для установки текстовых редакторов и изменения порта nginx: <br>
-docker exec -it 06dbac9c3ad7 /bin/bash<br>
-apt update<br>
-apt install nano vim<br>
+
+```
+docker exec -it 06dbac9c3ad7 /bin/bash
+apt update
+apt install nano vim
+```
+<br>
 Заменил на 81 порт<br>
-oot@06dbac9c3ad7:/# curl http://127.0.0.1:80 <br>
+Проверил вывод команды curl внутри контейнера:<br>
+
+```
+root@06dbac9c3ad7:/# curl http://127.0.0.1:80 <br>
 curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused<br>
 root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
+```
+
+<br>
 
 ```
 <html>
@@ -88,7 +98,7 @@ root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
 ```
 
 <br>
-Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках <br>
+Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках контейнера <br>
 docker ps<br>
 
 ```
@@ -97,7 +107,8 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED          STATU
 ```
 
 <br>
-Меняем порт в настройках контейнера <br>
+Нам нужно поменять порт в конфиг файлах контейнера. <br>
+Для этого выполняем остановку контейнера и сервиса докер: <br>
 
 ```
 docker stop 06dbac9c3ad7
