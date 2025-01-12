@@ -291,7 +291,30 @@ docker tag custom-nginx-t2 127.0.0.1:5000/custom-nginx:latest
 
 ![Веб эдитор](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%92%D0%B5%D0%B1%20%D1%8D%D0%B4%D0%B8%D1%82%D0%BE%D1%80.png)
 
+Добавили в веб эдитор следующий компоуз:<br>
+
+```
+version: '3'
+
+services:
+  nginx:
+    image: 127.0.0.1:5000/custom-nginx
+    ports:
+      - "9090:80"
+```
+
+Прожали деплой.<br>
+
+Посмотрели список контейнеров:<br>
+
+![Список контейнеров](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2.png)
+
+Посмотрели inspect нашего контейнера:<br>
+
+![Инспект](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%98%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82.png)
+
 Предупреждения после удаления файла compose.yaml:<br>
+
 ```
 WARN[0000] /home/user7/netology/docker/task5/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
 WARN[0000] Found orphan containers ([task5-portainer-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
