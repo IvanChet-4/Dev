@@ -2,7 +2,6 @@
 <br>
 <br>
 <h2>Задача 0</h2><br>
-<br>
 Переустановил docker compose<br>
 <br>
 
