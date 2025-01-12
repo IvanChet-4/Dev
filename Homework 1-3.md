@@ -46,7 +46,8 @@ Server: Docker Engine - Community<br>
 <br>
 Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2<br>
 ![Запуск контейнера](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0.png)<br>
-Чтобы переименовать контейнер: docker rename my_container my_new_container<br>
+Команда для переименования контейнера:<br> 
+docker rename my_container my_new_container<br>
 <br>
 <br>
 date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:8080 ; docker logs custom-nginx-t2 -n1 ; docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html <br>
@@ -68,7 +69,9 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 <br>
 <h2>Задача 3</h2><br>
 <br>
+Для подключения к к стандартному потоку ввода/вывода/ошибок контейнера необходимо использовать команду: <br>
 docker attach ichetverkin-custom-nginx-t2<br>
+<br>
 ctrl + c<br>
 docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)<br>
 Была выведена информация и о запущенных контейнерах и об образах   (результат сумма вывода команд: "docker ps"  и  "docker images")<br>
@@ -81,6 +84,7 @@ docker start 06dbac9c3ad7<br>
 docker attach --sig-proxy=false ichetverkin-custom-nginx-t2<br>
 Выход три раза ctrl + c<br>
 <br>
+Подключаемся к контейнеру для установки текстовых редакторов и изменения порта nginx: <br>
 docker exec -it 06dbac9c3ad7 /bin/bash<br>
 apt update<br>
 apt install nano vim<br>
@@ -106,8 +110,8 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED          STATU
 docker stop 06dbac9c3ad7<br>
 systemctl stop docker<br>
 /var/lib/docker/containers/<ID>/<br>
-config.v2.json тут "PortBindings"<br>
-hostconfig.json тут "ExposedPorts"<br>
+config.v2.json тут редактируем параметры "PortBindings"<br>
+hostconfig.json тут редактируем параметры "ExposedPorts"<br>
 <br>
 docker ps<br>
 CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES<br>
@@ -115,4 +119,5 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED             ST
 <br>
 Страница в браузере и по курл снова отображается.<br>
 <br>
+Для удаления запущенного контенейра:<br>
 docker rm -f $(docker ps -a -q)<br>
