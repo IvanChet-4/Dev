@@ -5,3 +5,4 @@
 <br>
 Сделал форк репозитория: <br>
 https://github.com/IvanChet-4/shvirtd-example-python/tree/main<br>
+Создал в сделанном форке 5-ть файлов: Dockerfile.python, .dockerignore, .gitignore, compose.yaml, script.sh<br>
