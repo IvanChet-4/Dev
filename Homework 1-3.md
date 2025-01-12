@@ -67,7 +67,7 @@ docker ps -a <br>
 docker attach --sig-proxy=false ichetverkin-custom-nginx-t2<br>
 ```
 
-Отключение от потоков контейнера три раза: ctrl + c<br>
+Для отключения от потоков контейнера необходимо три раза ввести: ctrl + c<br>
 <br>
 Подключаемся к контейнеру для установки текстовых редакторов и изменения порта nginx: <br>
 
@@ -81,14 +81,9 @@ apt install nano vim
 Проверил вывод команды curl внутри контейнера:<br>
 
 ```
-root@06dbac9c3ad7:/# curl http://127.0.0.1:80 <br>
-curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused<br>
-root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
-```
-
-<br>
-
-```
+root@06dbac9c3ad7:/# curl http://127.0.0.1:80
+curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused
+root@06dbac9c3ad7:/#  curl http://127.0.0.1:81
 <html>
 <head> Hey, Netology</head>
 <body>
@@ -120,8 +115,8 @@ systemctl stop docker
 /var/lib/docker/containers/<ID>/
 ```
 
-config.v2.json тут редактируем параметры "PortBindings"<br>
-hostconfig.json тут редактируем параметры "ExposedPorts"<br>
+<b>config.v2.json</b> тут редактируем параметры "PortBindings"<br>
+<b>hostconfig.json</b> тут редактируем параметры "ExposedPorts"<br>
 <br>
 После внесенных изменений запускаем докер, стартуем наш контейнер и делаем docker ps<br>
  
@@ -130,7 +125,7 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED             ST
 06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2
 ```
 
-Страница и в браузере и по курл снова отображается.<br>
+Страница и в браузере и по curl снова отображается.<br>
 <br>
 Для удаления запущенного контенейра:<br>
  
