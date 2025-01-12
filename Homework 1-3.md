@@ -3,11 +3,14 @@
 <br>
 <h2>Task 1</h2><br>
 <br>
-Зарегистрировался в докер хаб<br>
+Зарегистрировался в докер хаб и создал репозиторий https://hub.docker.com/repository/docker/4ivan/custom-nginx <br>
+Затем скачал к себе образ nginx, запустил docker container и изменил в нем страничку index.html <br>
+Для замены страницы использовал: cp index.html aac9755eea9b:/usr/share/nginx/html/index.html<br>
+Сделал докер коммит и отправил измененный контейнер в свой репозиторий <br>
+https://hub.docker.com/repository/docker/4ivan/custom-nginx/general <br>
 docker pull 4ivan/custom-nginx<br>
 <br>
-Для замены страницы использовал: cp index.html aac9755eea9b:/usr/share/nginx/html/index.html<br>
-<br><br>
+<br>
 Версия докера<br>
 Client: Docker Engine - Community<br>
  Version:           27.4.1
