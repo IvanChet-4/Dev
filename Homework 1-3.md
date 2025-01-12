@@ -234,3 +234,27 @@ user7@user7-MS-7D13:~/netology/docker/task5$ nano compose.yaml
 user7@user7-MS-7D13:~/netology/docker/task5$ vi docker-compose.yaml
 ```
 
+Запустили команду: <br>
+
+```
+docker compose up -d
+```
+
+Получили предупреждение WARN[0000]:<br>
+
+```
+/home/user7/netology/docker/task5/compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+```
+
+Указание версии является избыточным и может привести к появлению предупреждений т.к. Docker Compose по умолчанию использует последнюю спецификацию Compose.<br>
+<br>
+Изменили compose.yaml согласно рекомендации в предупреждении:<br>
+
+```
+services:
+  portainer:
+    network_mode: host
+    image: portainer/portainer-ce:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+```
