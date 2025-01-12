@@ -68,14 +68,14 @@ curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused<
 root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
 <code>
 
-'''
+```
 <html>
 <head> Hey, Netology</head>
 <body>
  <h1>I will be DevOps Engineer !</h1>
 </body>
 </html>
-'''
+```
 
 </code>
 <br>
