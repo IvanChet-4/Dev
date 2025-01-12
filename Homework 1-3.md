@@ -13,39 +13,39 @@ docker pull 4ivan/custom-nginx<br>
 <br>
 Версия докера<br>
 Client: Docker Engine - Community<br>
- Version:           27.4.1
- API version:       1.47
- Go version:        go1.22.10
- Git commit:        b9d17ea
- Built:             Tue Dec 17 15:45:42 2024
- OS/Arch:           linux/amd64
- Context:           default
+ Version:           27.4.1<br>
+ API version:       1.47<br>
+ Go version:        go1.22.10<br>
+ Git commit:        b9d17ea<br>
+ Built:             Tue Dec 17 15:45:42 2024<br>
+ OS/Arch:           linux/amd64<br>
+ Context:           default<br>
 <br>
 Server: Docker Engine - Community<br>
- Engine:
-  Version:          27.4.1
-  API version:      1.47 (minimum version 1.24)
-  Go version:       go1.22.10
-  Git commit:       c710b88
-  Built:            Tue Dec 17 15:45:42 2024
-  OS/Arch:          linux/amd64
-  Experimental:     false
- containerd:
-  Version:          1.7.24
-  GitCommit:        88bf19b2105c8b17560993bee28a01ddc2f97182
- runc:
-  Version:          1.2.2
-  GitCommit:        v1.2.2-0-g7cb3632
- docker-init:
-  Version:          0.19.0
-  GitCommit:        de40ad0
+ Engine:<br>
+  Version:          27.4.1<br>
+  API version:      1.47 (minimum version 1.24)<br>
+  Go version:       go1.22.10<br>
+  Git commit:       c710b88<br>
+  Built:            Tue Dec 17 15:45:42 2024<br>
+  OS/Arch:          linux/amd64<br>
+  Experimental:     false<br>
+ containerd:<br>
+  Version:          1.7.24<br>
+  GitCommit:        88bf19b2105c8b17560993bee28a01ddc2f97182<br>
+ runc:<br>
+  Version:          1.2.2<br>
+  GitCommit:        v1.2.2-0-g7cb3632<br>
+ docker-init:<br>
+  Version:          0.19.0<br>
+  GitCommit:        de40ad0<br>
 
 <br>
 <br>
 <h2>Task2</h2><br>
 <br>
 Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2<br>
-(https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0.png)
+![Запуск контейнера](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0.png)<br>
 Чтобы переименовать контейнер: docker rename my_container my_new_container<br>
 <br>
 <br>
