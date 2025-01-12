@@ -206,4 +206,13 @@ docker run -p 8081:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  debian /bin/b
 ![Доступ в интернет из контейнеров](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%20%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2.png)
 
 Создал на хостовой машине файл - файл виден и из контейнеров.<br>
+
+![Создал файл на хосте](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BB%20%D1%84%D0%B0%D0%B9%D0%BB%20%D0%BD%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B5.png)
+
 Подключился к первому контейнеру и создал файл - файл также виден и из контейнеров и с хостовой машины.<br>
+
+![Создал файл из контейнера и проверил его видимость](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BB%20%D1%84%D0%B0%D0%B9%D0%BB%20%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D0%BB%20%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%B8%D0%B4%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.png)
+
+Проверил на хостовой машине, с какими правами отображается созданный файл из контейнера. <br>
+
+![Права на файл созданный из контейнера](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%9F%D1%80%D0%B0%D0%B2%D0%B0%20%D0%BD%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0.png)
