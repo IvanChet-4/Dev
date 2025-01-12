@@ -50,12 +50,12 @@ Task2<br>
 date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:8080 ; docker logs custom-nginx-t2 -n1 ; docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 
 сurl 127.0.0.1:8080
-<html>
+`<html>
 <head> Hey, Netology</head>
 <body>
  <h1>I will be DevOps Engineer !</h1>
 <body>
-</html>
+</html>`
  <br>
  <br>
 ![Результат в браузере](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%20%D0%B2%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5.png)
