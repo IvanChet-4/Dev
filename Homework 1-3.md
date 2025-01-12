@@ -1,5 +1,6 @@
-Homework
+Homework 1-3
 
+==========
 Task 1
 
 Зарегистрировался в докер хаб
@@ -37,7 +38,7 @@ Server: Docker Engine - Community
   GitCommit:        de40ad0
 
 
-
+==========
 Task2
 
 Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2
@@ -54,6 +55,7 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 </html>
 ![Результат в браузере](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%20%D0%B2%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5.png)
 
+==========
 Task3
 
 docker attach ichetverkin-custom-nginx-t2
