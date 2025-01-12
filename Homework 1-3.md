@@ -287,3 +287,12 @@ docker tag custom-nginx-t2 127.0.0.1:5000/custom-nginx:latest
 WARN[0000] /home/user7/netology/docker/task5/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
 WARN[0000] Found orphan containers ([task5-portainer-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
 ```
+
+Выполнили:<br>
+
+```
+docker compose up -d --remove-orphans
+```
+
+Для остановки контейнера docker-compose stop<br>
+(Для уничтожения контейнера docker-compose down)<br>
