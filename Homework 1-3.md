@@ -174,3 +174,12 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED             ST
 ```
 docker rm -f $(docker ps -a -q)
 ```
+
+<br>
+<br>
+<h2>Задача 4</h2><br>
+<br>
+
+```
+-v /home/user7/Z4:/data
+```
