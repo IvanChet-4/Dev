@@ -7,7 +7,7 @@ Task 1<br>
 Зарегистрировался в докер хаб<br>
 docker pull 4ivan/custom-nginx<br>
 <br>
-Для замены страницы: cp index.html aac9755eea9b:/usr/share/nginx/html/index.html<br>
+Для замены страницы использовал: cp index.html aac9755eea9b:/usr/share/nginx/html/index.html<br>
 <br><br>
 Версия докера<br>
 Client: Docker Engine - Community<br>
