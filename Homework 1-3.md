@@ -14,6 +14,7 @@ cp index.html aac9755eea9b:/usr/share/nginx/html/index.html
 
 Сделал докер коммит и отправил измененный контейнер в свой репозиторий <br>
 <b> https://hub.docker.com/repository/docker/4ivan/custom-nginx/general </b><br>
+Теперь скачать мой образ можно при помощи команды:<br>
 
 ```
 docker pull 4ivan/custom-nginx
