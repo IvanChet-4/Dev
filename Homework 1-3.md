@@ -63,7 +63,10 @@ docker ps -a <br>
 Запустил контейнер: docker start 06dbac9c3ad7<br>
 <br>
 Чтобы контейнер не останавливался нужно отключить перенаправление сигналов:<br>
+```
 docker attach --sig-proxy=false ichetverkin-custom-nginx-t2<br>
+```
+
 Отключение от потоков контейнера три раза: ctrl + c<br>
 <br>
 Подключаемся к контейнеру для установки текстовых редакторов и изменения порта nginx: <br>
@@ -87,8 +90,12 @@ root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
 <br>
 Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках <br>
 docker ps<br>
-CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS         PORTS                                     NAMES <br>
+
+```
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS         PORTS                                     NAMES
 06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   48 minutes ago   Up 3 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   ichetverkin-custom-nginx-t2
+```
+
 <br>
 Меняем порт в настройках контейнера <br>
 docker stop 06dbac9c3ad7<br>
@@ -98,10 +105,17 @@ config.v2.json тут редактируем параметры "PortBindings"<b
 hostconfig.json тут редактируем параметры "ExposedPorts"<br>
 <br>
 docker ps<br>
-CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES<br>
-06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2 <br>
+
+```
+CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES
+06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2
+```
+
 <br>
 Страница в браузере и по курл снова отображается.<br>
 <br>
 Для удаления запущенного контенейра:<br>
-docker rm -f $(docker ps -a -q)<br>
+
+```
+docker rm -f $(docker ps -a -q)
+```
