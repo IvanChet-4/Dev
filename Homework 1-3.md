@@ -216,3 +216,21 @@ docker run -p 8081:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  debian /bin/b
 Проверил на хостовой машине, с какими правами отображается созданный файл из контейнера. <br>
 
 ![Права на файл созданный из контейнера](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%9F%D1%80%D0%B0%D0%B2%D0%B0%20%D0%BD%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%B0.png)
+
+
+<br>
+<br>
+<h2>Задача 4</h2><br>
+<br>
+
+Создаем директории и файлы по заданию. Список команд: <br>
+
+```
+user7@user7-MS-7D13:~$ mkdir netology
+user7@user7-MS-7D13:~$ mkdir ./netology/docker
+user7@user7-MS-7D13:~$ mkdir ./netology/docker/task5
+user7@user7-MS-7D13:~$ cd ./netology/docker/task5
+user7@user7-MS-7D13:~/netology/docker/task5$ nano compose.yaml
+user7@user7-MS-7D13:~/netology/docker/task5$ vi docker-compose.yaml
+```
+
