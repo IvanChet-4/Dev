@@ -264,3 +264,18 @@ services:
 ```
 
 ![Запуск двух контейнеров после исправления конфига](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%B4%D0%B2%D1%83%D1%85%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B0.png)
+
+Для создания локального registry ставим необходимый пакет:<br>
+
+```
+apt install docker-registry
+```
+Выполняем команды:<br>
+
+```
+docker run -d -p 5000:5000 --restart=always --name registry registry:2
+docker tag custom-nginx-t2 127.0.0.1:5000/custom-nginx:latest
+```
+
+![Локальный registry](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20registry.png)
+
