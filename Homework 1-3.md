@@ -202,5 +202,8 @@ docker: invalid reference format: repository name (/home/user7/Z4) must be lower
 docker run -p 8080:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  centos /bin/bash
 docker run -p 8081:80 -e TERM=xterm -t -i -v /home/user7/z4:/data  debian /bin/bash
 ```
+
+![Доступ в интернет из контейнеров](https://github.com/IvanChet-4/Dev/blob/main/images/Homework 1-3/Доступ в интернет из контейнеров.png)
+
 Создал на хостовой машине файл - файл виден и из контейнеров.<br>
 Подключился к первому контейнеру и создал файл - файл также виден и из контейнеров и с хостовой машины.<br>
