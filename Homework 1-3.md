@@ -181,5 +181,9 @@ docker rm -f $(docker ps -a -q)
 <br>
 
 ```
--v /home/user7/Z4:/data
+docker pull centos
+docker pull debian
+mkdir /home/user7/Z4
+
+docker run -t -i -v -v /home/user7/Z4:/data  centos /bin/bash
 ```
