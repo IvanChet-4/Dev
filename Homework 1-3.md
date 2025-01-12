@@ -279,3 +279,11 @@ docker tag custom-nginx-t2 127.0.0.1:5000/custom-nginx:latest
 
 ![Локальный registry](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20registry.png)
 
+
+
+
+Предупреждения после удаления файла compose.yaml:<br>
+```
+WARN[0000] /home/user7/netology/docker/task5/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+WARN[0000] Found orphan containers ([task5-portainer-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+```
