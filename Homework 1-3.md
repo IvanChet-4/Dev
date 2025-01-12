@@ -105,17 +105,14 @@ config.v2.json тут редактируем параметры "PortBindings"<b
 hostconfig.json тут редактируем параметры "ExposedPorts"<br>
 <br>
 docker ps<br>
-
 ```
 CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES
 06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2
 ```
-
 <br>
-Страница в браузере и по курл снова отображается.<br>
+Страница и в браузере и по курл снова отображается.<br>
 <br>
 Для удаления запущенного контенейра:<br>
-
 ```
 docker rm -f $(docker ps -a -q)
 ```
