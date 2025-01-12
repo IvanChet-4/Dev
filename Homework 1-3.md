@@ -280,7 +280,16 @@ docker tag custom-nginx-t2 127.0.0.1:5000/custom-nginx:latest
 ![Локальный registry](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20registry.png)
 
 
+Открыл страницу https://127.0.0.1:9000 и создал нового пользователя.<br>
 
+![Создал учетную запись](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BB%20%D1%83%D1%87%D0%B5%D1%82%D0%BD%D1%83%D1%8E%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C.png)
+
+Перешел на страницу http://127.0.0.1:9000/#!/home<br>
+
+![Стэк лист](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A1%D1%82%D1%8D%D0%BA%20%D0%BB%D0%B8%D1%81%D1%82.png)
+
+
+![Веб эдитор](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%92%D0%B5%D0%B1%20%D1%8D%D0%B4%D0%B8%D1%82%D0%BE%D1%80.png)
 
 Предупреждения после удаления файла compose.yaml:<br>
 ```
