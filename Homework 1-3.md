@@ -183,7 +183,16 @@ docker rm -f $(docker ps -a -q)
 ```
 docker pull centos
 docker pull debian
-mkdir /home/user7/Z4
-
-docker run -t -i -v -v /home/user7/Z4:/data  centos /bin/bash
+mkdir /home/user7/z4
 ```
+
+```
+docker run -t -i -v /home/user7/Z4:/data  centos /bin/bash
+docker: invalid reference format: repository name (/home/user7/Z4) must be lowercase.
+```
+
+
+```
+docker run -t -i -v /home/user7/Z4:/data  centos /bin/bash
+```
+
