@@ -240,6 +240,8 @@ user7@user7-MS-7D13:~/netology/docker/task5$ vi docker-compose.yaml
 docker compose up -d
 ```
 
+![Запуск команды](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B.png)
+
 Получили предупреждение WARN[0000]:<br>
 
 ```
@@ -248,9 +250,11 @@ docker compose up -d
 
 Указание версии является избыточным и может привести к появлению предупреждений т.к. Docker Compose по умолчанию использует последнюю спецификацию Compose.<br>
 <br>
-Изменили compose.yaml согласно рекомендации в предупреждении:<br>
+Изменили compose.yaml согласно рекомендации в предупреждении и подсказки в задании:<br>
 
 ```
+include:
+  - docker-compose.yaml
 services:
   portainer:
     network_mode: host
@@ -258,3 +262,5 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
+
+![Запуск двух контейнеров после исправления конфига](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%B4%D0%B2%D1%83%D1%85%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D0%B0.png)
