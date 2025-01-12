@@ -1,7 +1,7 @@
 Homework 1-3
-
-==========
-Task 1
+<br>
+========== <br>
+Task 1<br>
 
 Зарегистрировался в докер хаб
 docker pull 4ivan/custom-nginx
