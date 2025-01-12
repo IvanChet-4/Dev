@@ -51,14 +51,14 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 <br>
 сurl 127.0.0.1:8080<br>
 <br>
-```
+<code>
 <html>
 <head> Hey, Netology</head>
 <body>
  <h1>I will be DevOps Engineer !</h1>
-<body>
+</body>
 </html>
-```
+</code>
  <br>
  <br>
 ![Результат в браузере](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%20%D0%B2%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5.png)
@@ -87,14 +87,14 @@ apt install nano vim<br>
 oot@06dbac9c3ad7:/# curl http://127.0.0.1:80 <br>
 curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused<br>
 root@06dbac9c3ad7:/#  curl http://127.0.0.1:81<br>
-```
+<code>
 <html>
 <head> Hey, Netology</head>
 <body>
  <h1>I will be DevOps Engineer !</h1>
-<body>
+</body>
 </html>
-```
+</code>
 <br>
 Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках <br>
 docker ps<br>
