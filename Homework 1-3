@@ -1,0 +1,104 @@
+Homework
+
+Task 1
+
+Зарегистрировался в докер хаб
+docker pull 4ivan/custom-nginx
+
+Для замены страницы: cp index.html aac9755eea9b:/usr/share/nginx/html/index.html
+
+Версия докера
+Client: Docker Engine - Community
+ Version:           27.4.1
+ API version:       1.47
+ Go version:        go1.22.10
+ Git commit:        b9d17ea
+ Built:             Tue Dec 17 15:45:42 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          27.4.1
+  API version:      1.47 (minimum version 1.24)
+  Go version:       go1.22.10
+  Git commit:       c710b88
+  Built:            Tue Dec 17 15:45:42 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.7.24
+  GitCommit:        88bf19b2105c8b17560993bee28a01ddc2f97182
+ runc:
+  Version:          1.2.2
+  GitCommit:        v1.2.2-0-g7cb3632
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+
+
+Task2
+
+Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2
+Чтобы переименовать контейнер: docker rename my_container my_new_container
+
+date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:8080 ; docker logs custom-nginx-t2 -n1 ; docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
+
+сurl 127.0.0.1:8080
+<html>
+<head> Hey, Netology</head>
+<body>
+ <h1>I will be DevOps Engineer !</h1>
+<body>
+</html>
+
+
+Task3
+
+docker attach ichetverkin-custom-nginx-t2
+ctrl + c
+docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)
+Была выведена информация и о запущенных контейнерах и об образах   (результат сумма вывода команд: "docker ps"  и  "docker images")
+
+Контейер остановился т.к. получил сигнал на уничтожение SIGINT forcefully exiting 
+
+docker start 06dbac9c3ad7
+
+Чтобы контейнер не останавливался нужно отключить перенаправление сигналов:
+docker attach --sig-proxy=false ichetverkin-custom-nginx-t2
+Выход три раза ctrl + c
+
+docker exec -it 06dbac9c3ad7 /bin/bash
+apt update
+apt install nano vim
+Заменил на 81 порт
+oot@06dbac9c3ad7:/# curl http://127.0.0.1:80 
+curl: (7) Failed to connect to 127.0.0.1 port 80 after 0 ms: Connection refused
+root@06dbac9c3ad7:/#  curl http://127.0.0.1:81
+<html>
+<head> Hey, Netology</head>
+<body>
+ <h1>I will be DevOps Engineer !</h1>
+<body>
+</html>
+
+Очевидно, что проблема связана с параметрами заданными при старте контейнера, порт 80 остался в настройках 
+docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS         PORTS                                     NAMES
+06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   48 minutes ago   Up 3 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   ichetverkin-custom-nginx-t2
+
+Меняем порт в настройках контейнера
+docker stop 06dbac9c3ad7
+systemctl stop docker
+/var/lib/docker/containers/<ID>/
+config.v2.json тут "PortBindings"
+hostconfig.json тут "ExposedPorts"
+
+docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED             STATUS         PORTS                                     NAMES
+06dbac9c3ad7   custom-nginx-t2   "/docker-entrypoint.…"   About an hour ago   Up 3 seconds   0.0.0.0:8080->81/tcp, [::]:8080->81/tcp   ichetverkin-custom-nginx-t2
+
+Страница в браузере и по курл снова отображается.
+
+docker rm -f $(docker ps -a -q)
