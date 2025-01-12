@@ -2,7 +2,7 @@
 <br>
 <br>
 ========== <br>
-##Task 1<br>
+<h2>Task 1</h2><br>
 <br>
 Зарегистрировался в докер хаб<br>
 docker pull 4ivan/custom-nginx<br>
@@ -41,7 +41,7 @@ Server: Docker Engine - Community<br>
 <br>
 <br>
 ==========<br>
-##Task2<br>
+<h2>Task2</h2><br>
 <br>
 Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2<br>
 Чтобы переименовать контейнер: docker rename my_container my_new_container<br>
@@ -65,7 +65,7 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 <br>
 <br>
 ==========<br>
-##Task3<br>
+<h2>Task3</h2><br>
 <br>
 docker attach ichetverkin-custom-nginx-t2<br>
 ctrl + c<br>
