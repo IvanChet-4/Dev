@@ -1,7 +1,6 @@
 <h1>Homework 1-3</h1> <br>
 <br>
 <br>
-========== <br>
 <h2>Task 1</h2><br>
 <br>
 Зарегистрировался в докер хаб<br>
@@ -40,7 +39,6 @@ Server: Docker Engine - Community<br>
 
 <br>
 <br>
-==========<br>
 <h2>Task2</h2><br>
 <br>
 Для запуска:  docker run --name lastname-custom-nginx-t2 -p 8080:80 -e TERM=xterm -d custom-nginx-t2<br>
@@ -64,7 +62,6 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 ![Результат в браузере](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-3/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%20%D0%B2%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B5.png)
 <br>
 <br>
-==========<br>
 <h2>Task3</h2><br>
 <br>
 docker attach ichetverkin-custom-nginx-t2<br>
