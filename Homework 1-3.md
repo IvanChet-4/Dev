@@ -49,7 +49,9 @@ date +"%d-%m-%Y %T.%N %Z" ; sleep 0.150 ; docker ps ; ss -tlpn | grep 127.0.0.1:
 docker attach ichetverkin-custom-nginx-t2<br>
 <br>
 ctrl + c<br>
-docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)<br>
+docker ps -a <br>
+Описание любой команды можно найти в man or --help: <br>
+Пример: docker ps --help       - выводит следующее:    -a, --all             Show all containers (default shows just running)<br>
 Была выведена информация и о запущенных контейнерах и об образах   (результат сумма вывода команд: "docker ps"  и  "docker images")<br>
 <br>
 Контейер остановился т.к. получил сигнал на уничтожение SIGINT forcefully exiting <br>
@@ -58,7 +60,7 @@ docker start 06dbac9c3ad7<br>
 <br>
 Чтобы контейнер не останавливался нужно отключить перенаправление сигналов:<br>
 docker attach --sig-proxy=false ichetverkin-custom-nginx-t2<br>
-Выход три раза ctrl + c<br>
+Выход три раза: ctrl + c<br>
 <br>
 Подключаемся к контейнеру для установки текстовых редакторов и изменения порта nginx: <br>
 docker exec -it 06dbac9c3ad7 /bin/bash<br>
