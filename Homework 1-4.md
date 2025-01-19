@@ -20,3 +20,90 @@
 <b> https://github.com/IvanChet-4/shvirtd-example-python/tree/main </b><br>
 Создал в сделанном форке 5-ть файлов: Dockerfile.python, .dockerignore, .gitignore, compose.yaml, script.sh<br>
 В gitignore добавил compose.yaml, script.sh, Dockerfile.python<br>
+
+Заполнил Dockerfile.python:<br>
+
+```
+FROM python:3.9-slim
+
+#ENV DB_NAME='virtd'
+#ENV DB_USER='app'
+#ENV DB_PASSWORD='QwErTy1234'
+#ENV DB_HOST='db'
+
+COPY requirements.txt /tmp/requirements.txt
+RUN  pip install --no-cache-dir -r /tmp/requirements.txt
+
+#COPY ./script.sh /script.sh
+#RUN chmod +x /script.sh
+
+COPY ./main.py /main.py
+RUN chmod +x /main.py
+
+WORKDIR /
+CMD ["python", "main.py"]
+
+```
+
+<br>
+<h2>Задача 3</h2><br>
+<br>
+Заполнил compose.yaml:<br>
+
+```
+version: '3.8'
+include:
+  - proxy.yaml
+
+services:
+  db:
+    image: mysql:8
+    container_name: db
+    restart: always
+    hostname: db
+    networks: 
+        backend:
+          ipv4_address: 172.20.0.10
+    ports: 
+        - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ROOT_HOST="%" # all network
+
+
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile.python
+    container_name: web
+    restart: always
+    hostname: web
+    networks: 
+      backend:
+        ipv4_address: 172.20.0.5
+    ports:
+      - "5000"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+      - DB_NAME=virtd
+      - DB_USER=app
+      - DB_PASSWORD=QwErTy1234
+      - DB_HOST=db
+
+networks:
+  backend:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.20.0.0/24
+
+volumes:
+  db_data: {}
+```
