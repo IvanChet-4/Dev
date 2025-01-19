@@ -14,5 +14,9 @@
 <h2>Задача 1</h2><br>
 <br>
 Сделал форк репозитория: <br>
+
+![Форк](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%A4%D0%BE%D1%80%D0%BA.jpg)
+
 <b> https://github.com/IvanChet-4/shvirtd-example-python/tree/main </b><br>
 Создал в сделанном форке 5-ть файлов: Dockerfile.python, .dockerignore, .gitignore, compose.yaml, script.sh<br>
+В gitignore добавил compose.yaml, script.sh, Dockerfile.python<br>
