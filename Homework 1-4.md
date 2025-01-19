@@ -92,9 +92,9 @@ services:
       - .:/app
     environment:
       - FLASK_ENV=development
-      - DB_NAME=virtd
-      - DB_USER=app
-      - DB_PASSWORD=QwErTy1234
+      - DB_NAME=${MYSQL_DATABASE}
+      - DB_USER=${MYSQL_USER}
+      - DB_PASSWORD=${MYSQL_PASSWORD}
       - DB_HOST=db
 
 networks:
