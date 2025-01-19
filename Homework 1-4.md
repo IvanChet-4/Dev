@@ -107,3 +107,15 @@ networks:
 volumes:
   db_data: {}
 ```
+
+curl Запросы:<br>
+
+![Запросы curl](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%97%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D0%BE%D1%82%D0%B2%D0%B5%D1%82.png)
+
+Подключение к контейнеру с БД, подключение к БД:<br>
+
+![Подключение к контейнеру с БД](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/exec%20in%20mysql.png)
+
+Вывод значений из БД:<br>
+
+![Вывод значений из БД](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/10%20limits.png)
