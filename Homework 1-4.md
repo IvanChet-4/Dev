@@ -26,11 +26,6 @@
 ```
 FROM python:3.9-slim
 
-#ENV DB_NAME='virtd'
-#ENV DB_USER='app'
-#ENV DB_PASSWORD='QwErTy1234'
-#ENV DB_HOST='db'
-
 COPY requirements.txt /tmp/requirements.txt
 RUN  pip install --no-cache-dir -r /tmp/requirements.txt
 
