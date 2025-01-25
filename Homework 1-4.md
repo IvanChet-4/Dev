@@ -149,7 +149,7 @@ else
     cd shvirtd-example-python
 fi
 
-# Содержимое этих файлов добавил в ручную т.к. они gitignore и Dockerignore. В скрипте просто копируются в директорию с проектом
+# Содержимое этих файлов добавил вручную т.к. они в gitignore и Dockerignore. В скрипте просто копируются в директорию с проектом.
 cp /opt/Dockerfile.python /opt/shvirtd-example-python/Dockerfile.python
 cp /opt/compose.yaml /opt/shvirtd-example-python/compose.yaml
 cp /opt/.env /opt/shvirtd-example-python/.env
@@ -157,3 +157,10 @@ cp /opt/.env /opt/shvirtd-example-python/.env
 # Запускаем проект с помощью docker-compose
 docker-compose up -d
 ```
+
+Аналогично заданию 3 сделал curl запросы и вывел содержимое таблицы. <br>
+
+![curl запросы на ВМ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/curl%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D0%92%D0%9C.png)
+
+![Вывод таблицы на ВМ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B%20%D0%BD%D0%B0%20%D0%92%D0%9C.png)
+
