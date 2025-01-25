@@ -167,3 +167,11 @@ docker-compose up -d
 
 ![Вывод таблицы на ВМ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B%20%D0%BD%D0%B0%20%D0%92%D0%9C.png)
 
+<br>
+<h2>Задача 6</h2><br>
+<br>
+
+![docker dive save](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20dive%20save.png)
+
+![docker dive](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20dive.png)
+
