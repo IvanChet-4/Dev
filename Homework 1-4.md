@@ -119,3 +119,11 @@ curl Запросы:<br>
 Вывод значений из БД:<br>
 
 ![Вывод значений из БД](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/10%20limits.png)
+
+<br>
+<h2>Задача 4</h2><br>
+<br>
+Создал ВМ, настроил доступ по ssh. <br>
+При настройке ключа столкнулся с тем, что у Яндекса есть определенные требования к наименованию ключа.<br>
+
+![Создал ВМ и подключился по ssh](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BB%20%D0%92%D0%9C%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D0%BB%D1%81%D1%8F%20%D0%BF%D0%BE%20ssh.png)
