@@ -20,7 +20,6 @@
 + Судя по содержимому .gitignore, хранение ключей, токенов предполагается в файле:<br>
 personal.auto.tfvars  <br>
 <br>
- <br>
  
 + Содержимое random_password: <br>
 
