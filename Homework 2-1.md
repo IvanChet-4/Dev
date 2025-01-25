@@ -30,6 +30,7 @@ personal.auto.tfvars  <br>
 
 ![Password in result](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/Password%20in%20result.png)
 
+<br>
 
 + Расскомментировал блок кода, получил следующий вывод: <br>
 
@@ -125,4 +126,12 @@ resource "docker_container" "nginx" {
 
 ![second name containered](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/second%20name%20containered.png)
 
-Команда <b> terraform apply -auto-approve <b> может быть опасна т.к. новая конфигурация сразу принимается без подтверждения и без проверки на наличие ошибок, есть риск сломать текущую рабочую конфигурацию в случае ошибок. <br>
+Команда <b> terraform apply -auto-approve <b> может быть опасна в применении т.к. новая конфигурация сразу принимается без подтверждения и без проверки на наличие ошибок, есть риск сломать текущую рабочую конфигурацию в случае ошибок. <br>
+
+ 
++ Прописал пару команд для уничтожения созданных ресурсов:<br>
+
+```
+terraform destroy && docker rm -vf $(docker ps -aq) && docker rmi -f $(docker images -aq)
+```
+
