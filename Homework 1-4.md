@@ -173,6 +173,12 @@ docker-compose up -d
 
 Cкопировал бинарный файл /bin/terraform на свою локальную машину, используя dive и docker save. (он в tar архиве)<br>
 
+```
+docker pull hashicorp/terraform:latest
+dive hashicorp/terraform:latest
+docker save hashicorp/terraform:latest -o terraform.tar
+```
+
 ![docker dive save](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20dive%20save.png)
 
 ![docker dive](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20dive.png)
@@ -180,5 +186,14 @@ Cкопировал бинарный файл /bin/terraform на свою ло�
 ![docker save](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20save.png)
 
 <br>
-<h2>Задача 6</h2><br>
+<h2>Задача 6.1</h2><br>
 <br>
+
+Cкопировал бинарный файл /bin/terraform на свою локальную машину, используя docker cp <br>
+
+```
+docker run -d --name terraform hashicorp/terraform:latest
+docker cp terraform:/bin/terraform ./terraform
+```
+
+![docker cp](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20cp.png)
