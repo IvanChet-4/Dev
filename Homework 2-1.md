@@ -14,16 +14,18 @@
 <h2>Задача 2</h2><br>
 <br>
 
-Содержимое проекта скачано в отдельную директорию<br>
++Содержимое проекта скачано в отдельную директорию<br>
 <br>
-Судя по содержимому .gitignore, хранение ключей, токенов предполагается в файле:<br>
++Судя по содержимому .gitignore, хранение ключей, токенов предполагается в файле:<br>
 personal.auto.tfvars  <br>
 <br>
 
-Содержимое random_password: <br>
++Содержимое random_password: <br>
 
 ```
 "result": "qyub7YyqbjIOk8YS"
 ```
 
 ![Password in result](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/Password%20in%20result.png)
+
+
