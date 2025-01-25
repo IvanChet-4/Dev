@@ -127,3 +127,38 @@ curl Запросы:<br>
 При настройке ключа столкнулся с тем, что у Яндекса есть определенные требования к наименованию ключа.<br>
 
 ![Создал ВМ и подключился по ssh](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BB%20%D0%92%D0%9C%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D0%BB%D1%81%D1%8F%20%D0%BF%D0%BE%20ssh.png)
+
+Запустил проект через sh <br>
+
+![Запуск проекта на ВМ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%D0%BD%D0%B0%20%D0%92%D0%9C.png)
+
+```
+Код скрипта:
+
+#!/bin/bash
+
+# Укажите URL вашего форк-репозитория
+REPO_URL="https://github.com/IvanChet-4/shvirtd-example-python.git"
+
+# Переходим в каталог /opt
+cd /opt
+
+# Скачиваем ваш форк-репозиторий
+if [ -d "shvirtd-example-python" ]; then
+    echo "Репозиторий уже существует. Обновляем..."
+    cd shvirtd-example-python
+    git pull origin main  # или master, в зависимости от вашей ветки
+else
+    echo "Клонируем репозиторий..."
+    git clone $REPO_URL
+    cd shvirtd-example-python
+fi
+
+# Содержимое этих файлов добавил в ручную т.к. они gitignore и Dockerignore. В скрипте просто копируются в директорию с проектом
+cp /opt/Dockerfile.python /opt/shvirtd-example-python/Dockerfile.python
+cp /opt/compose.yaml /opt/shvirtd-example-python/compose.yaml
+cp /opt/.env /opt/shvirtd-example-python/.env
+
+# Запускаем проект с помощью docker-compose
+docker-compose up -d
+```
