@@ -4,7 +4,7 @@
 <h2>Задача 1</h2><br>
 <br>
 
-Устанавливаем terraform и docker<br>
+Установил terraform и docker<br>
 
 ![docker ver](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/docker%20ver.png)
 
