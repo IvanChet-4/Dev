@@ -20,6 +20,7 @@
 + Судя по содержимому .gitignore, хранение ключей, токенов предполагается в файле:<br>
 personal.auto.tfvars  <br>
 <br>
+ <br>
  
 + Содержимое random_password: <br>
 
@@ -78,3 +79,50 @@ resource "docker_container" "nginx" {
 ```
 
 ![first naume containered](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/first%20naume%20containered.png)
+
+ 
++ Заменил имя контейнера на hello_world, получился следующий код:<br>
+
+```
+terraform {
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      #version = "~> 3.0.1"
+    }
+  }
+  required_version = ">=1.8.4" /*Многострочный комментарий.
+ Требуемая версия terraform */
+}
+provider "docker" {}
+
+#однострочный комментарий
+
+resource "random_password" "random_string" {
+  length      = 16
+  special     = false
+  min_upper   = 1
+  min_lower   = 1
+  min_numeric = 1
+}
+
+
+resource "docker_image" "nginx_image" {
+  name         = "nginx:latest"
+  keep_locally = true
+}
+
+resource "docker_container" "nginx" {
+  image = docker_image.nginx_image.image_id
+  name  = "hello_world"
+
+  ports {
+    internal = 80
+    external = 9090
+  }
+}
+```
+
+![second name containered](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/second%20name%20containered.png)
+
+Команда <b> terraform apply -auto-approve <b> может быть опасна т.к. новая конфигурация сразу принимается без подтверждения и без проверки на наличие ошибок, есть риск сломать текущую рабочую конфигурацию в случае ошибок. <br>
