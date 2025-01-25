@@ -132,17 +132,17 @@ curl Запросы:<br>
 
 #!/bin/bash
 
-# Укажите URL вашего форк-репозитория
+# URL форк-репозитория
 REPO_URL="https://github.com/IvanChet-4/shvirtd-example-python.git"
 
 # Переходим в каталог /opt
 cd /opt
 
-# Скачиваем ваш форк-репозиторий
+# Скачиваем форк-репозиторий
 if [ -d "shvirtd-example-python" ]; then
     echo "Репозиторий уже существует. Обновляем..."
     cd shvirtd-example-python
-    git pull origin main  # или master, в зависимости от вашей ветки
+    git pull origin main  
 else
     echo "Клонируем репозиторий..."
     git clone $REPO_URL
