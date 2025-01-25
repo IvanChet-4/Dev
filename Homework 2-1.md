@@ -31,7 +31,7 @@ personal.auto.tfvars  <br>
 
 <br>
 
-+ Расскомментировал блок кода, получил следующий вывод: <br>
++ Расскомментировал блок кода, проверил, получил следующий вывод: <br>
 
 ![terraform validate error](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-1/terraform%20validate%20error.png)
  
