@@ -171,7 +171,14 @@ docker-compose up -d
 <h2>Задача 6</h2><br>
 <br>
 
+Cкопировал бинарный файл /bin/terraform на свою локальную машину, используя dive и docker save. (он в tar архиве)<br>
+
 ![docker dive save](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20dive%20save.png)
 
 ![docker dive](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20dive.png)
 
+![docker save](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%201-4/docker%20save.png)
+
+<br>
+<h2>Задача 6</h2><br>
+<br>
