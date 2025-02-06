@@ -1,13 +1,13 @@
 ### Cloud vars
 variable "cloud_id" {
   type        = string
-  default     = "b1gnaaaaaaaaaaaaamqf"
+  default     = "b1aaaaaaaaaaaaaamqf"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
 }
 
 variable "folder_id" {
   type        = string
-  default     = "b1gnaaaaaaaaaaaaamq0"
+  default     = "b1aaaaaaaaaaaaagqa0"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
 
@@ -29,21 +29,28 @@ variable "default_cidr" {
   description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 
-variable "vpc_name" {
-  type        = string
-  default     = "develop"
-  description = "VPC network & subnet name"
-}
-
 variable "db_cidr" {
   type        = list(string)
   default     = ["10.0.2.0/24"]
   description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 
-### SSH vars
-variable "vms_ssh_root_key" {
+variable "vpc_name" {
   type        = string
-  default     = "<ssh_ed25519_key>"
-  description = "default from ssh-keygen -t ed25519"
+  default     = "develop"
+  description = "VPC network & subnet name"
 }
+
+variable "vpc_db" {
+  type        = string
+  default     = "db"
+  description = "VPC network & subnet db"
+}
+
+
+
+
+### SSH vars
+variable "ssh_key" {
+}
+
