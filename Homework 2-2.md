@@ -60,3 +60,8 @@ https://github.com/IvanChet-4/Dev/blob/main/HW2-2/locals.tf
 <br>
 
 https://github.com/IvanChet-4/Dev/blob/main/HW2-2/terraforms.tfvars
+
+
+Result <br>
+
+![Result](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-2/5%20Result.jpg)
