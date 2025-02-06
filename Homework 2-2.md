@@ -18,3 +18,11 @@
 
 Параметр ```preemptible = true``` включает режим прерывистой ВМ, что позволяет сильно экономить бюджет выделенный под ресурсы.<br>
 Параметр ```core_fraction=5``` позволяет ограничить процент мощности процессора, что также позволяет экономить бюджет выделенный под ресурсы.<br>
+
+<br>
+<br>
+<h2>Задача 2</h2><br>
+<br>
+
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/main.tf<br>
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/variables.tf<br>
