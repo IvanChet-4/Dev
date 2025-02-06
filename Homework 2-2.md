@@ -26,3 +26,23 @@
 
 https://github.com/IvanChet-4/Dev/blob/main/HW2-2/main.tf<br>
 https://github.com/IvanChet-4/Dev/blob/main/HW2-2/variables.tf<br>
+
+
+<br>
+<br>
+<h2>Задача 3</h2><br>
+<br>
+
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/vms_platform.tf<br>
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/main.tf<br>
+
+<br>
+<br>
+<h2>Задача 4</h2><br>
+<br>
+
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/outputs.tf<br>
+
+Output <br>
+
+![Output](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-2/4%20Output.png)
