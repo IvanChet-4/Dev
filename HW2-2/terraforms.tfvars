@@ -6,7 +6,7 @@ vms_resources = {
   },
   db = {
     cores         = 2
-    memory        = 1
+    memory        = 2
     core_fraction = 20
   }
 }
