@@ -22,10 +22,10 @@ data "yandex_compute_image" "ubuntu" {
 resource "yandex_compute_instance" "platform" {
   name        = local.vm_web_name_full
   platform_id = "${var.vm_web_platform_id}"
-  resources {
-    cores         = 1
-    memory        = 1
-    core_fraction = 5
+   resources {
+    cores         = var.vms_resources["web"].cores
+    memory        = var.vms_resources["web"].memory
+    core_fraction = var.vms_resources["web"].core_fraction
   }
   boot_disk {
     initialize_params {
