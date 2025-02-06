@@ -46,3 +46,17 @@ https://github.com/IvanChet-4/Dev/blob/main/HW2-2/outputs.tf<br>
 Output <br>
 
 ![Output](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-2/4%20Output.png)
+
+<br>
+<br>
+<h2>Задача 5</h2><br>
+<br>
+
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/locals.tf
+
+<br>
+<br>
+<h2>Задача 6</h2><br>
+<br>
+
+https://github.com/IvanChet-4/Dev/blob/main/HW2-2/terraforms.tfvars
