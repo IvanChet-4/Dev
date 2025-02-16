@@ -49,3 +49,7 @@ https://github.com/IvanChet-4/Dev/blob/main/HW2-3/hosts.cfg <br>
 
 Файл hosts.tftpl:<br>
 https://github.com/IvanChet-4/Dev/blob/main/HW2-3/hosts.tftpl <br>
+
+![Выполнение задачи 4](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/7%20%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%204.png)
+
+![destroy](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/8%20destroy.png)
