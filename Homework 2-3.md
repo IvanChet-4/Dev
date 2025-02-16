@@ -8,5 +8,9 @@
 ![Добавление входящих правил для группы безопасности](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/1%20group%20security.jpg)
 
 <br>
+
+![Группа безопасности](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/2%20security%20group.png)
+
+<br>
 <h2>Задача 2</h2><br>
 <br>
