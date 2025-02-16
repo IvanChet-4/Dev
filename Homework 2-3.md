@@ -38,3 +38,14 @@ https://github.com/IvanChet-4/Dev/blob/main/HW2-3/disk_vm.tf <br>
 ![Добавление storage-vm](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/5%20disks.png)
 
 ![vpc в ЛК](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/6%20storage.jpg)
+
+
+<br>
+<h2>Задача 4</h2><br>
+<br>
+
+Файл hosts.cfg:<br>
+https://github.com/IvanChet-4/Dev/blob/main/HW2-3/hosts.cfg <br>
+
+Файл hosts.tftpl:<br>
+https://github.com/IvanChet-4/Dev/blob/main/HW2-3/hosts.tftpl <br>
