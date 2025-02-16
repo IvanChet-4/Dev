@@ -25,3 +25,5 @@ https://github.com/IvanChet-4/Dev/blob/main/HW2-3/for_each-vm.tf <br>
 https://github.com/IvanChet-4/Dev/blob/main/HW2-3/locals.tf <br>
 
 ![Создание vpc](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/3%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20vpc.png)
+
+![vpc в ЛК](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%202-3/4%20vpc%20.jpg)
