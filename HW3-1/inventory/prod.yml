@@ -1,0 +1,13 @@
+---
+  el:
+    hosts:
+      rpm:
+        ansible_connection: docker
+  deb:
+    hosts:
+      deb:
+        ansible_connection: docker
+  local:
+    hosts:
+      localhost:
+        ansible_connection: local
