@@ -5,6 +5,18 @@
 <br>
 <br>
 
-![Добавление входящих правил для группы безопасности]()
+![Версия ansible](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/0.png)
 
 <br>
+
+
+
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/1.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/2.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/3.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/4.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/5.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/6.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/7.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png
+https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/9.png
