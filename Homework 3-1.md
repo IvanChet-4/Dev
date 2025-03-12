@@ -23,7 +23,10 @@
 
 <br>
 Воспользуйтесь подготовленным (используется docker) или создайте собственное окружение для проведения дальнейших испытаний.
-Проведите запуск playbook на окружении из prod.yml. Зафиксируйте полученные значения some_fact для каждого из managed host.
+Проведите запуск playbook на окружении из prod.yml. 
+
+<br>
+Зафиксируйте полученные значения some_fact для каждого из managed host.
 <br>
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/3.png)
