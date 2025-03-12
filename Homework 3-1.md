@@ -50,6 +50,10 @@
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/7.png)
 
+<br>
+Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь в работоспособности.
+<br>
+
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png)
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/9.png)
