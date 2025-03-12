@@ -23,6 +23,12 @@
 
 <br>
 Воспользуйтесь подготовленным (используется docker) или создайте собственное окружение для проведения дальнейших испытаний.
+
+```
+docker run -d --name rpm rockylinux:9 sleep infinity
+docker run -d --name deb python:3.10-slim sleep infinity
+```
+<br>
 Проведите запуск playbook на окружении из prod.yml. 
 
 <br>
