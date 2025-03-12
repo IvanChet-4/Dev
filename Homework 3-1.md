@@ -53,6 +53,14 @@
 <br>
 Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь в работоспособности.
 <br>
+В prod.yml добавьте новую группу хостов с именем local, в ней разместите localhost с необходимым типом подключения.
+<br>
+Запустите playbook на окружении prod.yml. 
+<br>
+При запуске ansible должен запросить у вас пароль. 
+<br>
+Убедитесь, что факты some_fact для каждого из хостов определены из верных group_vars.
+<br>
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png)
 
