@@ -56,4 +56,8 @@
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png)
 
+<br>
+Посмотрите при помощи ansible-doc список плагинов для подключения. Выберите подходящий для работы на control node.
+<br>
+
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/9.png)
