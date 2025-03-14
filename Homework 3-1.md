@@ -1,14 +1,15 @@
 <h1>Homework 3-1 </h1> <br>
 <br>
 <br>
-<h2>Задача 1</h2><br>
-<br>
-<br>
 Верия ansible:
 <br>
 
 ![Версия ansible](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/0.png)
 
+
+<br>
+<h2>Задача 1</h2><br>
+<br>
 <br>
 Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.
 <br>
@@ -16,11 +17,17 @@
 ![Запуск с some_facts](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/1.png)
 
 <br>
+<h2>Задача 2</h2><br>
+<br>
+<br>
 Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на all default fact.
 <br>
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/2.png)
 
+<br>
+<h2>Задача 3</h2><br>
+<br>
 <br>
 Воспользуйтесь подготовленным (используется docker) или создайте собственное окружение для проведения дальнейших испытаний.
 <br>
@@ -31,6 +38,9 @@
 docker run -d --name rpm rockylinux:9 sleep infinity
 docker run -d --name deb python:3.10-slim sleep infinity
 ```
+<br>
+<h2>Задача 4</h2><br>
+<br>
 <br>
 Проведите запуск playbook на окружении из prod.yml. 
 
