@@ -43,12 +43,11 @@ docker run -d --name deb python:3.10-slim sleep infinity
 Зафиксируйте полученные значения some_fact для каждого из managed host.
 <br>
 
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/3.png)
+![Запуск playbook](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/3.png)
 
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/4.png)
+![Запуск playbook](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/4.png)
 
-
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/5.png)
+![Запуск playbook](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/5.png)
 
 <br>
 <h2>Задача 5</h2><br>
@@ -61,7 +60,7 @@ docker run -d --name deb python:3.10-slim sleep infinity
 Повторите запуск playbook на окружении prod.yml. Убедитесь, что выдаются корректные значения для всех хостов.
 <br>
 
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/6.png)
+![Запуск playbook](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/6.png)
 
 <br>
 <h2>Задача 7</h2><br>
@@ -70,13 +69,29 @@ docker run -d --name deb python:3.10-slim sleep infinity
 При помощи ansible-vault зашифруйте факты в group_vars/deb и group_vars/el с паролем netology.
 <br>
 
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/7.png)
+![Шифрование valt](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/7.png)
 
 <br>
 <h2>Задача 8</h2><br>
 <br>
 Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь в работоспособности.
 <br>
+<br>
+
+<br>
+<h2>Задача 9</h2><br>
+<br>
+Посмотрите при помощи ansible-doc список плагинов для подключения. Выберите подходящий для работы на control node.
+<br>
+
+![ansible-doc](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/9.png)
+
+<br>
+
+```
+В Ansible модуль ansible.builtin.local используется для выполнения задач на управляющем узле (control node)
+```
+
 <br>
 <h2>Задача 10</h2><br>
 <br>
@@ -86,6 +101,9 @@ docker run -d --name deb python:3.10-slim sleep infinity
 ```
 https://github.com/IvanChet-4/Dev/blob/main/HW3-1/inventory/prod.yml
 ```
+
+
+
 
 <br>
 <h2>Задача 11</h2><br>
@@ -97,20 +115,4 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-1/inventory/prod.yml
 Убедитесь, что факты some_fact для каждого из хостов определены из верных group_vars.
 <br>
 
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png)
-
-<br>
-<h2>Задача 9</h2><br>
-<br>
-Посмотрите при помощи ansible-doc список плагинов для подключения. Выберите подходящий для работы на control node.
-<br>
-
-![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/9.png)
-
-<br>
-
-```
-В Ansible модуль ansible.builtin.local используется для выполнения задач на управляющем узле (control node)
-```
-
-<br>
+![Запуск playbook](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png)
