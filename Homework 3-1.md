@@ -10,7 +10,6 @@
 <br>
 <h2>Задача 1</h2><br>
 <br>
-<br>
 Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.
 <br>
 
@@ -19,7 +18,6 @@
 <br>
 <h2>Задача 2</h2><br>
 <br>
-<br>
 Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на all default fact.
 <br>
 
@@ -27,7 +25,6 @@
 
 <br>
 <h2>Задача 3</h2><br>
-<br>
 <br>
 Воспользуйтесь подготовленным (используется docker) или создайте собственное окружение для проведения дальнейших испытаний.
 <br>
@@ -41,9 +38,7 @@ docker run -d --name deb python:3.10-slim sleep infinity
 <br>
 <h2>Задача 4</h2><br>
 <br>
-<br>
 Проведите запуск playbook на окружении из prod.yml. 
-
 <br>
 Зафиксируйте полученные значения some_fact для каждого из managed host.
 <br>
@@ -56,13 +51,21 @@ docker run -d --name deb python:3.10-slim sleep infinity
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/5.png)
 
 <br>
+<h2>Задача 5</h2><br>
+<br>
 Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились значения: для deb — deb default fact, для el — el default fact. 
+<br>
+<h2>Задача 6</h2><br>
+<br>
 <br>
 Повторите запуск playbook на окружении prod.yml. Убедитесь, что выдаются корректные значения для всех хостов.
 <br>
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/6.png)
 
+<br>
+<h2>Задача 7</h2><br>
+<br>
 <br>
 При помощи ansible-vault зашифруйте факты в group_vars/deb и group_vars/el с паролем netology.
 <br>
