@@ -78,3 +78,11 @@ docker run -d --name deb python:3.10-slim sleep infinity
 <br>
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/9.png)
+
+<br>
+
+```
+В Ansible модуль ansible.builtin.local используется для выполнения задач на управляющем узле (control node)
+```
+
+<br>
