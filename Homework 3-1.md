@@ -54,6 +54,11 @@ docker run -d --name deb python:3.10-slim sleep infinity
 <br>
 Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились значения: для deb — deb default fact, для el — el default fact. 
 <br>
+
+```
+https://github.com/IvanChet-4/Dev/tree/main/HW3-1/group_vars
+```
+
 <h2>Задача 6</h2><br>
 <br>
 <br>
