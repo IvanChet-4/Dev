@@ -73,9 +73,22 @@ docker run -d --name deb python:3.10-slim sleep infinity
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/7.png)
 
 <br>
+<h2>Задача 8</h2><br>
+<br>
 Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь в работоспособности.
 <br>
+<br>
+<h2>Задача 10</h2><br>
+<br>
 В prod.yml добавьте новую группу хостов с именем local, в ней разместите localhost с необходимым типом подключения.
+<br>
+
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-1/inventory/prod.yml
+```
+
+<br>
+<h2>Задача 11</h2><br>
 <br>
 Запустите playbook на окружении prod.yml. 
 <br>
@@ -86,6 +99,8 @@ docker run -d --name deb python:3.10-slim sleep infinity
 
 ![Запуск с all default fact](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/8.png)
 
+<br>
+<h2>Задача 9</h2><br>
 <br>
 Посмотрите при помощи ansible-doc список плагинов для подключения. Выберите подходящий для работы на control node.
 <br>
