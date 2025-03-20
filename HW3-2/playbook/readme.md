@@ -62,3 +62,8 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 ```
 https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/template/vector.yml.j2
 ```
+
+```
+Дополнительные материалы для ознакомления:
+https://vector.dev/docs/reference/configuration/
+```
