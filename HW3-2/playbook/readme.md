@@ -28,6 +28,7 @@ https://github.com/IvanChet-4/Dev/tree/main/HW3-2/playbook/group_vars
 ```
 
 ```
+Дополнительное описание:
 Версии:                        clickhouse_version, vector_version
 Список пакетов:                clickhouse_packages
 Директория для конфига Vector: vector_config_dir
@@ -38,6 +39,14 @@ https://github.com/IvanChet-4/Dev/tree/main/HW3-2/playbook/group_vars
 
 ```
 https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/inventory/prod.yml
+```
+
+```
+Дополнительное описание:
+      Хост:                       127.0.1.1
+      Пользователь:               root
+      Сертификат для подключения: /home/user7/3-2/08-ansible-02-playbook/playbook/.ssh/id_rsa
+      Порт:                       2222
 ```
 
 <br>
