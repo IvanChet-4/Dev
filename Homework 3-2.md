@@ -75,4 +75,15 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 
 ![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/15.png)
 
+<br>
+<h2>Задача 9</h2><br>
+<br>
+Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги. Пример качественной документации ansible playbook по ссылке. Так же приложите скриншоты выполнения заданий №5-8
 
+<br>
+<h2>Задача 10</h2><br>
+<br>
+Готовый playbook выложите в свой репозиторий, поставьте тег 08-ansible-02-playbook на фиксирующий коммит, в ответ предоставьте ссылку на него.
+
+```
+```
