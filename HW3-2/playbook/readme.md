@@ -14,6 +14,7 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/compose.yml
 ```
 
 ```
+Дополнительное описание:
  Образ:       robertdebock/docker-centos-openssh
  Сертификаты: ./.ssh/:/root/.ssh/
  Порты:       2222:22
@@ -24,6 +25,12 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/compose.yml
 
 ```
 https://github.com/IvanChet-4/Dev/tree/main/HW3-2/playbook/group_vars
+```
+
+```
+Версии:                        clickhouse_version, vector_version
+Список пакетов:                clickhouse_packages
+Директория для конфига Vector: vector_config_dir
 ```
 
 <br>
