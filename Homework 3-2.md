@@ -86,4 +86,5 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 Готовый playbook выложите в свой репозиторий, поставьте тег 08-ansible-02-playbook на фиксирующий коммит, в ответ предоставьте ссылку на него.
 
 ```
+https://github.com/IvanChet-4/Dev/releases/tag/08-ansible-02-playbook
 ```
