@@ -49,10 +49,16 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 <br>
 Попробуйте запустить playbook на этом окружении с флагом --check
 
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/2.png)
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/3.png)
+
 <br>
 <h2>Задача 7</h2><br>
 <br>
 Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/9.png)
 
 <br>
 <h2>Задача 8</h2><br>
