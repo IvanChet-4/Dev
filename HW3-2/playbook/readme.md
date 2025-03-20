@@ -14,9 +14,9 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/compose.yml
 ```
 
 ```
- Образ:     robertdebock/docker-centos-openssh
- Сертификат ./.ssh/:/root/.ssh/
- Порты:     2222:22
+ Образ:       robertdebock/docker-centos-openssh
+ Сертификаты: ./.ssh/:/root/.ssh/
+ Порты:       2222:22
 ```
 
 <br>
