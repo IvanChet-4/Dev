@@ -71,4 +71,8 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 <br>
 Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен
 
-![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/4.png)
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/14.png)
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/15.png)
+
+
