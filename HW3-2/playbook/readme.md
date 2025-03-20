@@ -56,6 +56,11 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/inventory/prod.yml
 https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 ```
 
+```
+Дополнительные материалы для ознакомления:
+https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html
+```
+
 <br>
 Настройки Vector
 
