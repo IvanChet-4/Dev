@@ -70,3 +70,5 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 <h2>Задача 8</h2><br>
 <br>
 Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/4.png)
