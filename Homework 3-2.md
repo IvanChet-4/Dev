@@ -42,5 +42,4 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 <br>
 Запустите ansible-lint site.yml и исправьте ошибки, если они есть.
 
-
-![Версия ansible](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/0.png)
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/1.png)
