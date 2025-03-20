@@ -19,6 +19,28 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/inventory/prod.yml
 https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml 
 ```
 
+<br>
+<h2>Задача 3</h2><br>
+<br>
+При создании tasks рекомендую использовать модули: get_url, template, unarchive, file.
+
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml 
+```
+
+<br>
+<h2>Задача 4</h2><br>
+<br>
+Tasks должны: скачать дистрибутив нужной версии, выполнить распаковку в выбранную директорию, установить vector.
+
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml 
+```
+
+<br>
+<h2>Задача 5</h2><br>
+<br>
+Запустите ansible-lint site.yml и исправьте ошибки, если они есть.
 
 
 ![Версия ansible](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-1/0.png)
