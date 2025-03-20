@@ -13,6 +13,12 @@ Playbook для установки Clickhouse и Vector на одном хост
 https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/compose.yml
 ```
 
+```
+ Образ:     robertdebock/docker-centos-openssh
+ Сертификат ./.ssh/:/root/.ssh/
+ Порты:     2222:22
+```
+
 <br>
 Данные где можно отредактировать переменные версий, пакетов, директорий
 
