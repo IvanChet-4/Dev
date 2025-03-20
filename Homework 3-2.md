@@ -58,7 +58,13 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 <br>
 Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.
 
-![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/9.png)
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/4.png)
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/5.png)
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/6.png)
+
+![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/7.png)
 
 <br>
 <h2>Задача 8</h2><br>
