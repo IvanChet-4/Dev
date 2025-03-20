@@ -43,3 +43,18 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 Запустите ansible-lint site.yml и исправьте ошибки, если они есть.
 
 ![Запуск ansible-lint](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-2/1.png)
+
+<br>
+<h2>Задача 6</h2><br>
+<br>
+Попробуйте запустить playbook на этом окружении с флагом --check
+
+<br>
+<h2>Задача 7</h2><br>
+<br>
+Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.
+
+<br>
+<h2>Задача 8</h2><br>
+<br>
+Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен
