@@ -80,6 +80,10 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/site.yml
 <br>
 Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги. Пример качественной документации ansible playbook по ссылке. Так же приложите скриншоты выполнения заданий №5-8
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/readme.md
+```
+
 <br>
 <h2>Задача 10</h2><br>
 <br>
