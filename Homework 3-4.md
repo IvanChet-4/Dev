@@ -75,7 +75,7 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhous
 <br>
 <h2>Задача 7</h2><br>
 <br>
-Повторите шаги 3–6 для LightHouse. Помните, что одна роль должна настраивать один продукт.
+Повторите шаги 3–6 для LightHouse. Помните, что одна роль должна настраивать один продукт.<br>
 
 <br>
 Запуск проекта
@@ -111,6 +111,10 @@ https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook
 <h2>Задача 10</h2><br>
 <br>
 Выложите playbook в репозиторий.
+
+```
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook
+```
 
 <br>
 <h2>Задача 11</h2><br>
