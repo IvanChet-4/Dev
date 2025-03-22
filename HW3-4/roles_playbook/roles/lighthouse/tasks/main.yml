@@ -1,0 +1,68 @@
+---
+- name: start-nginx
+  command: /etc/init.d/nginx start
+  become: true
+  become_method: sudo
+
+- name: restart-nginx
+  command: /etc/init.d/nginx restart
+  become: true
+  become_method: sudo
+
+- name: Nginx | Install epel-release
+  become: true
+  ansible.builtin.yum:
+    name: epel-release
+    state: present
+
+- name: Nginx | Install Nginx
+  become: true
+  ansible.builtin.yum:
+    name: nginx
+    state: present
+
+- name: Nginx | Create config
+  become: true
+  ansible.builtin.template:
+    src: templates/nginx.conf.j2
+    dest: /etc/nginx/nginx.conf
+    mode: '0644'
+  notify: start-nginx
+  tags: Nginx
+
+- name: Create Lighthouse directory
+  become: true
+  ansible.builtin.file:
+    path: /var/www/lighthouse
+    state: directory
+    recurse: yes
+    mode: '0755'
+    owner: nginx
+    group: nginx
+
+- name: Ensure /var/www/lighthouse is added to Git safe.directory
+  ansible.builtin.command:
+    cmd: git config --global --add safe.directory /var/www/lighthouse
+  environment:
+    HOME: "/root"
+
+- name: Reset local changes in the repository
+  ansible.builtin.command:
+    cmd: git reset --hard
+    chdir: /var/www/lighthouse
+
+- name: Lighthouse | Clone from Git
+  become: true
+  ansible.builtin.git:
+    repo: "{{ lighthouse_vcs }}"
+    version: master
+    dest: "{{ lighthouse_location_dir }}"
+
+- name: Lighthouse | Create lighthouse config
+  become: true
+  ansible.builtin.template:
+    src: templates/lighthouse.conf.j2
+    dest: /etc/nginx/conf.d/default.conf
+    mode: '0644'
+  notify: restart-nginx
+  tags: Lighthouse
