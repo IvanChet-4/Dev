@@ -90,6 +90,10 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/inventory/pro
 <br>
 Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/readme.md
+```
+
 <h2>Задача 10</h2><br>
 <br>
 Готовый playbook выложите в свой репозиторий, поставьте тег 08-ansible-03-yandex на фиксирующий коммит, в ответ предоставьте ссылку на него.
