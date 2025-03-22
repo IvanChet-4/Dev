@@ -10,5 +10,8 @@ Ansible >= 2.16.3<br>
 All variables that can be overridden are stored in the defaults/main.yml and vars/main.yml files, as well as in the table below.
 
 <table>
-<td></td>
+<td>
+  <tr></tr>
+  <tr></tr>
+</td>
 </table>
