@@ -48,15 +48,41 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/inventory/pro
 <br>
 Попробуйте запустить playbook на этом окружении с флагом --check.
 
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/4.png)
 
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/5.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/6.png)
 
 <h2>Задача 7</h2><br>
 <br>
 Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.
 
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/1.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/2.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/3.png)
+
 <h2>Задача 8</h2><br>
 <br>
 Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/7.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/8.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/9.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/10.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/11.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/12.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/13.png)
+
+![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/14.png)
 
 <h2>Задача 9</h2><br>
 <br>
