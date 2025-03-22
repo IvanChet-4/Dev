@@ -6,6 +6,11 @@
 <br>
 Допишите playbook: нужно сделать ещё один play, который устанавливает и настраивает LightHouse.
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook/site.yml
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/site.yml
+```
+
 <h2>Задача 2</h2><br>
 <br>
 При создании tasks рекомендую использовать модули: get_url, template, yum, apt.
