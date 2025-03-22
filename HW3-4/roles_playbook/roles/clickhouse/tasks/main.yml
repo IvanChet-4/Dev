@@ -1,0 +1,27 @@
+---
+- name: Mess with clickhouse distrib
+  block:
+    - name: Get clickhouse distrib
+      ansible.builtin.get_url:
+        url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.x86_64.rpm"
+        dest: "./{{ item }}-{{ clickhouse_version }}.rpm"
+        mode: "0644"
+      with_items: "{{ clickhouse_packages }}"
+  rescue:
+    - name: Get clickhouse distrib (rescue)
+      ansible.builtin.get_url:
+        url: "https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
+        dest: "./clickhouse-common-static-{{ clickhouse_version }}.rpm"
+        mode: "0644"
+- name: Install clickhouse packages
+  become: true
+  ansible.builtin.dnf:
+    name:
+      - clickhouse-common-static-{{ clickhouse_version }}.rpm
+      - clickhouse-client-{{ clickhouse_version }}.rpm
+      - clickhouse-server-{{ clickhouse_version }}.rpm
+    disable_gpg_check: true
+  notify: Start clickhouse service
+
+- name: Flush handlers to restart clickhouse
+  ansible.builtin.meta: flush_handlers
