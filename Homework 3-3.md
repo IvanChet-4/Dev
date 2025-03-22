@@ -84,7 +84,7 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/inventory/pro
 
 ![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/14.png)
 
-![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/3-3.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/3-3.jpg)
 
 <h2>Задача 9</h2><br>
 <br>
