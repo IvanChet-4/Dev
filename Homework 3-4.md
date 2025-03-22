@@ -72,6 +72,10 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhous
 <br>
 Опишите в README.md обе роли и их параметры. Пример качественной документации ansible role по ссылке.
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/readme.md
+```
+
 <br>
 <h2>Задача 7</h2><br>
 <br>
