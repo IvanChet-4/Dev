@@ -78,6 +78,11 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhous
 <br>
 Выложите все roles в репозитории. Проставьте теги, используя семантическую нумерацию. Добавьте roles в requirements.yml в playbook.
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/requirements.yml
+https://github.com/IvanChet-4/Dev/releases/tag/1.0
+```
+
 <br>
 <h2>Задача 9</h2><br>
 <br>
