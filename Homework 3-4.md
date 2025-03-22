@@ -42,6 +42,15 @@ ansible-galaxy role init vector-role
 <br>
 На основе tasks из старого playbook заполните новую role. Разнесите переменные между vars и default
 
+```
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/clickhouse/defaults
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/clickhouse/vars
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/lighthouse/defaults
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/lighthouse/vars
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/vector/defaults
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/vector/vars
+```
+
 <br>
 <h2>Задача 5</h2><br>
 <br>
