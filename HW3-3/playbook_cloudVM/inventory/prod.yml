@@ -1,0 +1,25 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 158.160.169.251
+      ansible_user: root
+      ansible_ssh_private_key_file: /home/user7/3-3/1/08-ansible-03-yandex/playbook/.ssh/ed25519
+      ansible_port: 22
+
+
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 158.160.169.251
+      ansible_user: root
+      ansible_ssh_private_key_file: /home/user7/3-3/1/08-ansible-03-yandex/playbook/.ssh/ed25519
+      ansible_port: 22
+
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_host: 158.160.169.251
+      ansible_user: root
+      ansible_ssh_private_key_file: /home/user7/3-3/1/08-ansible-03-yandex/playbook/.ssh/ed25519
+      ansible_port: 22
