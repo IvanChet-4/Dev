@@ -56,6 +56,12 @@ https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/vector/va
 <br>
 Перенести нужные шаблоны конфигов в templates
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/vector/templates/vector.yml.j2
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/vector/templates/vector.yml.j2
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhouse/templates/clickhouse-server-config.xml.j2
+```
+
 <br>
 <h2>Задача 6</h2><br>
 <br>
