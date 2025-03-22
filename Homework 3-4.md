@@ -28,6 +28,9 @@
 ansible-galaxy role init vector-role
 ```
 
+![ansible-galaxy ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/3.png)
+
+
 <br>
 <h2>Задача 4</h2><br>
 <br>
@@ -67,3 +70,12 @@ ansible-galaxy role init vector-role
 <h2>Задача 11</h2><br>
 <br>
 В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
+
+
+Запуск проекта
+
+![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/0.png)
+
+![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/1.png)
+
+![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/2.png)
