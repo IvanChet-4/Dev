@@ -15,21 +15,40 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/site.yml
 <br>
 При создании tasks рекомендую использовать модули: get_url, template, yum, apt.
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook/site.yml
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/site.yml
+```
+
 <h2>Задача 3</h2><br>
 <br>
 Tasks должны: скачать статику LightHouse, установить Nginx или любой другой веб-сервер, настроить его конфиг для открытия LightHouse, запустить веб-сервер.
+
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook/site.yml
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/site.yml
+```
 
 <h2>Задача 4</h2><br>
 <br>
 Подготовьте свой inventory-файл prod.yml.
 
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook/inventory/prod.yml
+https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/inventory/prod.yml
+```
+
 <h2>Задача 5</h2><br>
 <br>
 Запустите ansible-lint site.yml и исправьте ошибки, если они есть.
 
+
+
 <h2>Задача 6</h2><br>
 <br>
 Попробуйте запустить playbook на этом окружении с флагом --check.
+
+
 
 <h2>Задача 7</h2><br>
 <br>
