@@ -58,31 +58,33 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-3/playbook_cloudVM/inventory/pro
 <br>
 Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/1.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/1.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/2.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/2.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/3.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/3.png)
 
 <h2>Задача 8</h2><br>
 <br>
 Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/7.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/7.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/8.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/8.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/9.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/9.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/10.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/10.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/11.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/11.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/12.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/12.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/13.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/13.png)
 
-![check ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/14.png)
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/14.png)
+
+![diff ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-3/3-3.png)
 
 <h2>Задача 9</h2><br>
 <br>
