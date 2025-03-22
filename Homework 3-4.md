@@ -78,6 +78,17 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhous
 Повторите шаги 3–6 для LightHouse. Помните, что одна роль должна настраивать один продукт.
 
 <br>
+Запуск проекта
+
+![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/0.png)
+
+![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/1.png)
+
+![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/2.png)
+
+
+
+<br>
 <h2>Задача 8</h2><br>
 <br>
 Выложите все roles в репозитории. Проставьте теги, используя семантическую нумерацию. Добавьте roles в requirements.yml в playbook.
@@ -111,12 +122,3 @@ https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook
 https://github.com/IvanChet-4/Dev/tree/main/HW3-2/playbook
 https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook
 ```
-
-<br>
-Запуск проекта
-
-![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/0.png)
-
-![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/1.png)
-
-![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/2.png)
