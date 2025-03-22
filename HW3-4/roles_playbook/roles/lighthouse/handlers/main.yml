@@ -1,0 +1,21 @@
+---
+- name: start-nginx
+  ansible.builtin.service:
+    name: nginx
+    state: restarted
+  become: true
+  become_method: sudo
+
+- name: restart-nginx
+  ansible.builtin.service:
+    name: nginx
+    state: reloaded
+  become: true
+  become_method: sudo
+
+- name: restart-nginx
+  ansible.builtin.service:
+    name: nginx
+    state: restarted
+  become: true
+  become_method: sudo
