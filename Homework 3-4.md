@@ -88,6 +88,10 @@ https://github.com/IvanChet-4/Dev/releases/tag/1.0
 <br>
 Переработайте playbook на использование roles. Не забудьте про зависимости LightHouse и возможности совмещения roles с tasks.
 
+```
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook
+```
+
 <br>
 <h2>Задача 10</h2><br>
 <br>
