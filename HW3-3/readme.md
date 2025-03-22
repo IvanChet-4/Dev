@@ -1,7 +1,12 @@
 <h1>Playbook</h1>
 
 <br>
-Playbook для установки Clickhouse, lighthouse и Vector на одном хосте.
+Playbook-и для установки Clickhouse, lighthouse и Vector на одном хосте.
+
+В двух репозиториях playbook и playbook_cloudVM по одному playbook.
+playbook - для локальной установки в докерконтейнере.
+playbook_cloudVM - для установки на ВМ в Cloud.
+
 <br>
 <br>
 Структура:
