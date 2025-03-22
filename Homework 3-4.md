@@ -58,7 +58,8 @@ https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook/roles/vector/va
 
 ```
 https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/vector/templates/vector.yml.j2
-https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/vector/templates/vector.yml.j2
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/lighthouse/templates/lighthouse.conf.j2
+https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/lighthouse/templates/nginx.conf.j2
 https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhouse/templates/clickhouse-server-config.xml.j2
 ```
 
