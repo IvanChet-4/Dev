@@ -1,0 +1,17 @@
+---
+  - src: git@github.com:IvanChet-4/Dev.git
+    scm: git
+    version: "1.0"
+    name: clickhouse 
+
+    ---
+  - src: git@github.com:IvanChet-4/Dev.git
+    scm: git
+    version: "1.0"
+    name: vector
+
+    ---
+  - src: git@github.com:IvanChet-4/Dev.git
+    scm: git
+    version: "1.0"
+    name: lighthouse
