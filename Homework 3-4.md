@@ -25,6 +25,10 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/requirements.yml
 <br>
 При помощи ansible-galaxy скачайте себе эту роль.
 
+```
+ansible-galaxy install -r requrements.yml -p roles
+```
+
 <br>
 <h2>Задача 3</h2><br>
 <br>
