@@ -14,4 +14,8 @@ All variables that can be overridden are stored in the defaults/main.yml and var
   <tr></tr>
   <tr></tr>
 </td>
+  <td>
+  <tr></tr>
+  <tr></tr>
+</td>
 </table>
