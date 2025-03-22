@@ -15,6 +15,12 @@
 ```
 
 <br>
+
+```
+https://github.com/IvanChet-4/Dev/blob/main/HW3-2/playbook/requirements.yml
+```
+
+<br>
 <h2>Задача 2</h2><br>
 <br>
 При помощи ansible-galaxy скачайте себе эту роль.
