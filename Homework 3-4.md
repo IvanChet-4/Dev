@@ -94,6 +94,12 @@ https://github.com/IvanChet-4/Dev/blob/main/HW3-4/roles_playbook/roles/clickhous
 В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.<br>
 <br>
 
+```
+https://github.com/IvanChet-4/Dev/tree/main/HW3-2/playbook
+https://github.com/IvanChet-4/Dev/tree/main/HW3-4/roles_playbook
+```
+
+<br>
 Запуск проекта
 
 ![Запуск ](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%203-4/0.png)
