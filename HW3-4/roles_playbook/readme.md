@@ -15,8 +15,8 @@ defaults/main.yml<br>
 lighthouse_location_dir: /var/www/lighthouse<br>
 
 vars/main.yml<br>
-lighthouse_vcs: "https://github.com/VKCOM/lighthouse.git"
-lighthouse_access_log_name: lighthouse
+lighthouse_vcs: "https://github.com/VKCOM/lighthouse.git"<br>
+lighthouse_access_log_name: lighthouse<br>
 nginx_user_name: root
 
 <h3>For clickhouse</h3><br>
