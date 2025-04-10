@@ -8,7 +8,8 @@
 
 ![start compose-jira.yml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/0.png)
 
-compose-jira.yml  https://github.com/IvanChet-4/Dev/blob/main/HW4-1/compose-jira.yml 
+<br>
+compose-jira.yml  https://github.com/IvanChet-4/Dev/blob/main/HW4-1/compose-jira.yml <br>
 
 ![mail box](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/1.png)
 
@@ -26,8 +27,8 @@ On fix -> On reproduce, Done fix.<br>
 Done fix -> On test.<br>
 On test -> On fix, Done.<br>
 Done -> Closed, Open.<br>
-
-scheme Bug   https://github.com/IvanChet-4/Dev/blob/main/HW4-1/Bug.xml
+<br>
+scheme Bug   https://github.com/IvanChet-4/Dev/blob/main/HW4-1/Bug.xml<br>
 
 ![scheme Bug](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/4.png)
 
@@ -40,8 +41,9 @@ On develop -> Open, Done develop.<br>
 Done develop -> On test.<br>
 On test -> On develop, Done.<br>
 Done -> Closed, Open.<br>
+<br>
 
-scheme other https://github.com/IvanChet-4/Dev/blob/main/HW4-1/other.xml
+scheme other https://github.com/IvanChet-4/Dev/blob/main/HW4-1/other.xml<br>
 
 ![scheme other](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/5.png)
 
