@@ -100,13 +100,19 @@ https://github.com/IvanChet-4/example-teamcity/blob/feature/add_reply/src/test/j
 <br>
 Сделайте push всех изменений в новую ветку репозитория.   <br><br>
 
+![git push](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/17.png)
+
 <h2>Задача 13</h2><br>
 <br>
-Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
+Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.    <br><br>
+
+![run new branch](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/18.png)
 
 <h2>Задача 14</h2><br>
 <br>
-Внесите изменения из произвольной ветки feature/add_reply в master через Merge.
+Внесите изменения из произвольной ветки feature/add_reply в master через Merge.    <br><br>
+
+![git merge](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/19.png)
 
 <h2>Задача 15</h2><br>
 <br>
