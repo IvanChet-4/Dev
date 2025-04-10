@@ -65,7 +65,11 @@ pom.xml:  https://github.com/IvanChet-4/example-teamcity/blob/master/pom.xml  <b
 
 <h2>Задача 7</h2><br>
 <br>
-Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.  <br><br>
+
+![nexus](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/13.png)
+
+![master run](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/14.png)
 
 <h2>Задача 8</h2><br>
 <br>
