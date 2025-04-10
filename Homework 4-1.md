@@ -6,6 +6,11 @@
 
 ![start compose-jira.yml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/0.png)
 
+![mail box](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/1.png)
+
+![lisence code](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/2.png)
+
+![jira web](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/3.png)
 
 <br>
 Необходимо создать собственные workflow для двух типов задач: bug и остальные типы задач. Задачи типа bug должны проходить жизненный цикл:
@@ -17,6 +22,11 @@ On fix -> On reproduce, Done fix.<br>
 Done fix -> On test.<br>
 On test -> On fix, Done.<br>
 Done -> Closed, Open.<br>
+
+![scheme Bug](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/4.png)
+
+
+<br>
 Остальные задачи должны проходить по упрощённому workflow:<br>
 <br>
 Open -> On develop.<br>
