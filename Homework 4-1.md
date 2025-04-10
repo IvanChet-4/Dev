@@ -37,6 +37,9 @@ Done develop -> On test.<br>
 On test -> On develop, Done.<br>
 Done -> Closed, Open.<br>
 Что нужно сделать<br>
+
+![scheme other](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/5.png)
+
 <br>
 Создайте задачу с типом bug, попытайтесь провести его по всему workflow до Done.<br>
 Создайте задачу с типом epic, к ней привяжите несколько задач с типом task, проведите их по всему workflow до Done.<br>
@@ -44,3 +47,5 @@ Done -> Closed, Open.<br>
 Верните задачи в статус Open.<br>
 Перейдите в Scrum, запланируйте новый спринт, состоящий из задач эпика и одного бага, стартуйте спринт, проведите задачи до состояния Closed. Закройте спринт.<br>
 Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.<br>
+
+![Запуск и прохождение](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/6.png)
