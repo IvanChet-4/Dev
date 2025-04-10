@@ -53,11 +53,15 @@
 <br>
 Для deploy будет необходимо загрузить settings.xml в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.<br><br>
 
+settings.xml:  https://github.com/IvanChet-4/Dev/blob/main/HW4-5/settings.xml  <br><br>
+
 ![settings.xml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/12.png)
 
 <h2>Задача 6</h2><br>
 <br>
-В pom.xml необходимо поменять ссылки на репозиторий и nexus.
+В pom.xml необходимо поменять ссылки на репозиторий и nexus.<br><br>
+
+pom.xml:  https://github.com/IvanChet-4/example-teamcity/blob/master/pom.xml  <br><br>
 
 <h2>Задача 7</h2><br>
 <br>
