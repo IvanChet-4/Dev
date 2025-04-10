@@ -6,6 +6,20 @@
 
 ![ansible playbook create nexus](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/0_2.png)
 
+<br>
+Запуск teamcity<br><br>
+
+![step configuration](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/3.png)
+
+![step configuration](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/4.png)
+
+![step configuration](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/5.png)
+
+![step configuration](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/6.png)
+
+![step configuration](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/7.png)
+
+![step configuration](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/8.png)
 
 <h2>Задача 1</h2><br>
 <br>
@@ -18,6 +32,8 @@
 <h2>Задача 2</h2><br>
 <br>
 Сделайте autodetect конфигурации.
+
+![create project](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/9.png)
 
 <h2>Задача 3</h2><br>
 <br>
