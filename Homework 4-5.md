@@ -2,12 +2,18 @@
 <br>
 <br>
 
+![fork](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/0_1.png)
 
+![fork](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/0_2.png)
 
 
 <h2>Задача 1</h2><br>
 <br>
 Создайте новый проект в teamcity на основе fork.<br>
+
+![fork](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/1.png)
+
+![create project](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/2.png)
 
 <h2>Задача 2</h2><br>
 <br>
