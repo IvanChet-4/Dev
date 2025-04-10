@@ -1,6 +1,8 @@
 <h1>Homework 4-5 </h1> <br>
 <br>
 <br>
+Добавление ВМ и настройка nexus <br><br>
+
 
 ![create VM](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/0_1.jpg)
 
@@ -23,7 +25,7 @@
 
 <h2>Задача 1</h2><br>
 <br>
-Создайте новый проект в teamcity на основе fork.<br>
+Создайте новый проект в teamcity на основе fork.<br><br>
 
 ![fork](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/1.jpg)
 
@@ -31,7 +33,7 @@
 
 <h2>Задача 2</h2><br>
 <br>
-Сделайте autodetect конфигурации.
+Сделайте autodetect конфигурации.<br><br>
 
 ![create project](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/9.png)
 
