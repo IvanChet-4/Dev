@@ -9,7 +9,7 @@
 ![start compose-jira.yml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/0.png)
 
 <br>
-compose-jira.yml  https://github.com/IvanChet-4/Dev/blob/main/HW4-1/compose-jira.yml <br>
+compose-jira.yml  https://github.com/IvanChet-4/Dev/blob/main/HW4-1/compose-jira.yml <br><br>
 
 ![mail box](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/1.png)
 
@@ -28,7 +28,7 @@ Done fix -> On test.<br>
 On test -> On fix, Done.<br>
 Done -> Closed, Open.<br>
 <br>
-scheme Bug   https://github.com/IvanChet-4/Dev/blob/main/HW4-1/Bug.xml<br>
+scheme Bug   https://github.com/IvanChet-4/Dev/blob/main/HW4-1/Bug.xml<br><br>
 
 ![scheme Bug](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/4.png)
 
@@ -42,8 +42,7 @@ Done develop -> On test.<br>
 On test -> On develop, Done.<br>
 Done -> Closed, Open.<br>
 <br>
-
-scheme other https://github.com/IvanChet-4/Dev/blob/main/HW4-1/other.xml<br>
+scheme other https://github.com/IvanChet-4/Dev/blob/main/HW4-1/other.xml<br><br>
 
 ![scheme other](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/5.png)
 
@@ -55,5 +54,6 @@ scheme other https://github.com/IvanChet-4/Dev/blob/main/HW4-1/other.xml<br>
 Верните задачи в статус Open.<br>
 Перейдите в Scrum, запланируйте новый спринт, состоящий из задач эпика и одного бага, стартуйте спринт, проведите задачи до состояния Closed. Закройте спринт.<br>
 Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.<br>
+<br>
 
 ![Запуск и прохождение](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/6.png)
