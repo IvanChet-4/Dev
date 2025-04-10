@@ -6,6 +6,8 @@
 
 ![create VM](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/0_1.jpg)
 
+nexus playbook:  https://github.com/IvanChet-4/Dev/tree/main/HW4-5/playbook_nexus/infrastructure <br><br>
+
 ![ansible playbook create nexus](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/0_2.png)
 
 <br>
