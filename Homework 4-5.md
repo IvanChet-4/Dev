@@ -73,23 +73,32 @@ pom.xml:  https://github.com/IvanChet-4/example-teamcity/blob/master/pom.xml  <b
 
 <h2>Задача 8</h2><br>
 <br>
-Мигрируйте build configuration в репозиторий.
+Мигрируйте build configuration в репозиторий.  <br><br>
+
+![git push](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/14.png)
 
 <h2>Задача 9</h2><br>
 <br>
-Создайте отдельную ветку feature/add_reply в репозитории.
+Создайте отдельную ветку feature/add_reply в репозитории.  <br><br>
+
+![git branch](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/16.png)
 
 <h2>Задача 10</h2><br>
 <br>
-Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово hunter.
+Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово hunter.  <br><br>
+
+https://github.com/IvanChet-4/example-teamcity/blob/feature/add_reply/src/main/java/plaindoll/Welcomer.java  <br><br>
+
 
 <h2>Задача 11</h2><br>
 <br>
-Дополните тест для нового метода на поиск слова hunter в новой реплике.
+Дополните тест для нового метода на поиск слова hunter в новой реплике.  <br><br>
+
+https://github.com/IvanChet-4/example-teamcity/blob/feature/add_reply/src/test/java/plaindoll/WelcomerTest.java  <br><br>
 
 <h2>Задача 12</h2><br>
 <br>
-Сделайте push всех изменений в новую ветку репозитория.
+Сделайте push всех изменений в новую ветку репозитория.   <br><br>
 
 <h2>Задача 13</h2><br>
 <br>
