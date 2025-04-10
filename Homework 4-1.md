@@ -3,6 +3,8 @@
 <br>
 
 <h2>Задача 1</h2><br>
+<br>
+Скриншоты запуска jira и БД с помощью docker compose; генерация ключа для триал лицензии с помощью случайной почты; активация и веб интерфейс jira <br>
 
 ![start compose-jira.yml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/0.png)
 
