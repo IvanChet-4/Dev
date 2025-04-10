@@ -36,11 +36,11 @@ On develop -> Open, Done develop.<br>
 Done develop -> On test.<br>
 On test -> On develop, Done.<br>
 Done -> Closed, Open.<br>
-Что нужно сделать<br>
 
 ![scheme other](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/5.png)
 
 <br>
+Что нужно сделать<br>
 Создайте задачу с типом bug, попытайтесь провести его по всему workflow до Done.<br>
 Создайте задачу с типом epic, к ней привяжите несколько задач с типом task, проведите их по всему workflow до Done.<br>
 При проведении обеих задач по статусам используйте kanban.<br>
