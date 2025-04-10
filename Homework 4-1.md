@@ -3,6 +3,10 @@
 <br>
 
 <h2>Задача 1</h2><br>
+
+![start compose-jira.yml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-1/0.png)
+
+
 <br>
 Необходимо создать собственные workflow для двух типов задач: bug и остальные типы задач. Задачи типа bug должны проходить жизненный цикл:
 <br>
