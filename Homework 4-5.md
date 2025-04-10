@@ -39,7 +39,9 @@
 
 <h2>Задача 3</h2><br>
 <br>
-Сохраните необходимые шаги, запустите первую сборку master.
+Сохраните необходимые шаги, запустите первую сборку master.<br><br>
+
+![run](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/10.png)
 
 <h2>Задача 4</h2><br>
 <br>
