@@ -45,11 +45,15 @@
 
 <h2>Задача 4</h2><br>
 <br>
-Поменяйте условия сборки: если сборка по ветке master, то должен происходит mvn clean deploy, иначе mvn clean test.
+Поменяйте условия сборки: если сборка по ветке master, то должен происходит mvn clean deploy, иначе mvn clean test.<br><br>
+
+![step build](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/11.png)
 
 <h2>Задача 5</h2><br>
 <br>
-Для deploy будет необходимо загрузить settings.xml в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
+Для deploy будет необходимо загрузить settings.xml в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.<br><br>
+
+![settings.xml](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%204-5/12.png)
 
 <h2>Задача 6</h2><br>
 <br>
