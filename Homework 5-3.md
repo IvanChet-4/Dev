@@ -9,3 +9,13 @@
 Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.  <br>
     
  <br><br>
+
+![data source](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/1.png)
+
+![main page](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/0.png)
+
+![prometheus](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/2.png)
+
+![metrics](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/3.png)
+
+![viget](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/4.png)
