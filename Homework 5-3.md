@@ -40,3 +40,11 @@
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.  <br>
 
  <br><br>
+
+Запросы:  https://github.com/IvanChet-4/Dev/blob/main/HW5-3/compose/readme.md
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/5.png)
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/6.png)
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/7.png)
