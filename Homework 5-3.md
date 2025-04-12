@@ -59,3 +59,17 @@
 В качестве решения задания приведите скриншот вашей итоговой Dashboard.  <br>
 
 ![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/8.png)
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/9.png)
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/10.png)
+
+
+<h2>Задача 4</h2><br>
+
+Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.  <br>
+В качестве решения задания приведите листинг этого файла.  <br>
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/11.png)
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/12.png)
