@@ -58,18 +58,19 @@
 Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».  <br>
 В качестве решения задания приведите скриншот вашей итоговой Dashboard.  <br>
 
-![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/8.png)
+![dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/8.png)
 
-![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/9.png)
+![add telegram](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/9.png)
 
-![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/10.png)
+![viget](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/10.png)
 
+![telegram notif](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/11.jpg)
+
+![telegram notif](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/12.jpg)
 
 <h2>Задача 4</h2><br>
 
 Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.  <br>
 В качестве решения задания приведите листинг этого файла.  <br>
 
-![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/11.png)
 
-![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/12.png)
