@@ -1,7 +1,7 @@
 <h1>Homework 5-3 </h1> <br>
 <br>
 <br>
-Задание 1  <br>
+<h2>Задача 1</h2><br>
 
 Используя директорию help внутри этого домашнего задания, запустите связку prometheus-grafana.  <br>
 Зайдите в веб-интерфейс grafana, используя авторизационные данные, указанные в манифесте docker-compose.  <br>
@@ -11,6 +11,8 @@
  <br><br>
 
 ![data source](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/1.png)
+
+![docker ps](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/0_0.png)
 
 ![main page](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/0.png)
 
@@ -22,7 +24,7 @@
 
 
 
-Задание 2  <br>
+<h2>Задача 2</h2><br>
 
 Изучите самостоятельно ресурсы:  <br>
 
@@ -48,3 +50,12 @@
 ![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/6.png)
 
 ![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/7.png)
+
+
+<h2>Задача 3</h2><br>
+
+
+Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».  <br>
+В качестве решения задания приведите скриншот вашей итоговой Dashboard.  <br>
+
+![vigets om dashboard](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-3/8.png)
