@@ -1,0 +1,80 @@
+services:
+  elasticsearch_hot:
+    image: elasticsearch:8.7.0
+    container_name: elasticsearch_hot
+    environment:
+      - discovery.type=single-node
+      - node.roles=master,data_hot
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - hot_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    networks:
+      - elk
+
+  elasticsearch_warm:
+    image: elasticsearch:8.7.0
+    container_name: elasticsearch_warm
+    environment:
+      - discovery.type=single-node
+      - node.roles=master,data_warm
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - warm_data:/usr/share/elasticsearch/data
+    ports:
+      - "9201:9200"
+    networks:
+      - elk
+
+  kibana:
+    image: kibana:8.7.0
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch_hot
+      - elasticsearch_warm
+
+  logstash:
+    image: logstash:8.7.0
+    container_name: logstash
+    environment:
+      - LS_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - ./configs/:/usr/share/logstash/config/logstash.conf:ro
+    ports:
+      - "5044:5044"
+      - "5046:5046"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch_hot
+      - elasticsearch_warm
+
+  filebeat:
+    image: elastic/filebeat:8.7.0
+    container_name: filebeat
+    user: root
+    volumes:
+      - ./configs/filebeat.yml:/usr/share/filebeat/filebeat.yml:Z
+      - /var/lib/docker/containers:/var/lib/docker/containers:Z
+      - /var/run/docker.sock:/var/run/docker.sock:Z
+    networks:
+      - elk
+    depends_on:
+      - logstash
+
+volumes:
+  hot_data:
+    driver: local
+  warm_data:
+    driver: local
+
+networks:
+  elk:
+    driver: bridge
