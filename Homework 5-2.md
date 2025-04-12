@@ -196,8 +196,8 @@ CPU (Центральный процессор): <br>
 
 |Система мониторинга|pull|push|Гибрид|
 |----|----|----|----|
-|Prometheus||||
-|TICK||||
-|Zabbix||||
-|VictoriaMetrics||||
-|Nagios||||
+|Prometheus|Да|Нет|Да, поддерживает механизм push через Pushgateway|
+|TICK|Нет|Да|Нет|
+|Zabbix|Да|Да|Да|
+|VictoriaMetrics|Да|Да|Да|
+|Nagios|Да|Нет|Нет|
