@@ -7,10 +7,10 @@
 Вам необходимо поднять в докере и связать между собой:<br>
 
 ```
-elasticsearch (hot и warm ноды);<br>
-logstash;<br>
-kibana;<br>
-filebeat.<br>
+elasticsearch (hot и warm ноды);
+logstash;
+kibana;
+filebeat.
 ```
 
 Logstash следует сконфигурировать для приёма по tcp json-сообщений.<br>
