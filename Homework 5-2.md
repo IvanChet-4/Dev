@@ -192,3 +192,12 @@ CPU (Центральный процессор): <br>
     Nagios<br>
 
 <br><br>
+
+
+|Система мониторинга|pull|push|Гибрид|
+|----|----|----|----|
+|Prometheus||||
+|TICK||||
+|Zabbix||||
+|VictoriaMetrics||||
+|Nagios||||
