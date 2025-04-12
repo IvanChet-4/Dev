@@ -5,12 +5,14 @@
 <h2>Задача 1</h2><br>
 <br>
 Вам необходимо поднять в докере и связать между собой:<br>
-<br>
+
+```
 elasticsearch (hot и warm ноды);<br>
 logstash;<br>
 kibana;<br>
 filebeat.<br>
-<br>
+```
+
 Logstash следует сконфигурировать для приёма по tcp json-сообщений.<br>
 <br>
 Filebeat следует сконфигурировать для отправки логов docker вашей системы в logstash.<br>
