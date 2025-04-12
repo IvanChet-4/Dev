@@ -210,3 +210,5 @@ CPU (Центральный процессор): <br>
 В виде решения на это упражнение приведите скриншот веб-интерфейса ПО chronograf (http://localhost:8888). <br>
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим Z, например ./data:/var/lib:Z <br>
 <br><br>
+
+![git clone](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%205-2/0.png)
