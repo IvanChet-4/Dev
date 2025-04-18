@@ -1,3 +1,5 @@
+Исправлен nginx.conf, requarements.txt, docker-compose.yml
+
 Параметры из файла .env:<br>
 Storage_Bucket=data<br>
 Storage_AccessKey=storage<br>
