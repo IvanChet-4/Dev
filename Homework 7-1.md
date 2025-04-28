@@ -76,6 +76,13 @@
 
 ![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/1-1.png)
 
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/1-2.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/1-3.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/1-4.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/1-5.png)
 
 
 ------
@@ -88,6 +95,15 @@
 
 <h4>Решение</h4>
 
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/2-1.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/2-2.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/2-3.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/2-4.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/2-5.png)
 
 ------
 
