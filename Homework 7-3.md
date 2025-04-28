@@ -30,10 +30,12 @@
 <h4>Решение</h4>
 
 ```
-yaml:  https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml
+yaml: https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml
 ```
 
-![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-1.png)
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-3/1-1.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-3/1-2.png)
 
 Задание 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий
 
