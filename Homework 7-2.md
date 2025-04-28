@@ -35,6 +35,18 @@
 
 <h4>Решение</h4>
 
+```
+yaml:  https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml
+```
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-1.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-2.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-3.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-4.png)
+
 ------
 
 ### Задание 2. Создать Service и подключить его к Pod
@@ -45,6 +57,20 @@
 4. Подключиться локально к Service с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
 
 <h4>Решение</h4>
+
+```
+yaml:  
+
+https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod1.yaml
+
+https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod2.yaml
+```
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/2-1.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/2-2.png)
+
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/2-3.png)
 
 ------
 
