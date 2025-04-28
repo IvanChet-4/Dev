@@ -74,6 +74,10 @@
 
 <h4>Решение</h4>
 
+[](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-1/1-1.png)
+
+
+
 ------
 
 ### Задание 2. Установка и настройка локального kubectl
