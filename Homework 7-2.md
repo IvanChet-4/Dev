@@ -61,9 +61,9 @@ yaml:  https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml
 ```
 yaml:  
 
-https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod1.yaml
+netology-web    https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod1.yaml
 
-https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod2.yaml
+Service         https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod2.yaml
 ```
 
 ![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/2-1.png)
