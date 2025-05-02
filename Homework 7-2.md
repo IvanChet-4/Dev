@@ -35,9 +35,8 @@
 
 <h4>Решение</h4>
 
-```
-yaml:  https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml
-```
+yaml:   <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml> <br>
 
 ![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-1.png)
 
@@ -58,13 +57,10 @@ yaml:  https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml
 
 <h4>Решение</h4>
 
-```
-yaml:  
+yaml:   <br>
+netology-web    <https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod1.yaml> <br>
+Service         <https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod2.yaml> <br>
 
-netology-web    https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod1.yaml
-
-Service         https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod2.yaml
-```
 
 ![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/2-1.png)
 
