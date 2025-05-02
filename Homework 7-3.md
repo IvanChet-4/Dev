@@ -30,7 +30,10 @@
 <h4>Решение</h4>
 
 ```
-yaml: https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml
+yaml:
+https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml
+https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/pod.yaml
+https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/service.yaml
 ```
 
 ![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-3/1-1.png)
@@ -47,10 +50,12 @@ yaml: https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml
 <h4>Решение</h4>
 
 ```
-yaml:  https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml
+yaml:
+https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z2/deployment.yaml
+https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z2/service.yaml
 ```
 
-![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-2/1-1.png)
+![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-3/2-1.png)
 
 Правила приема работы
 
