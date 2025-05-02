@@ -33,9 +33,9 @@
 yaml:
 ```
 
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/pod.yaml>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/service.yaml>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml> 
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/pod.yaml> 
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/service.yaml> 
 
 
 ![](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-3/1-1.png)
