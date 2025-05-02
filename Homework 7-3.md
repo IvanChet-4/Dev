@@ -29,7 +29,7 @@
 
 <h4>Решение</h4>
 
-yaml:
+yaml: <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/deployment.yaml> <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/pod.yaml> <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z1/service.yaml> <br>
@@ -47,7 +47,7 @@ yaml:
 
 <h4>Решение</h4>
 
-yaml:
+yaml: <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z2/deployment.yaml> <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-3/z2/service.yaml> <br>
 
