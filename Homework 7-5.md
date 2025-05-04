@@ -39,7 +39,18 @@
 <h4>Решение</h4>
 
 yaml:   <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z1/backend-deployment.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z1/frontend-deployment.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z1/backend-service.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z1/frontend-service.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z1/pod-multitool.yaml> <br>
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-5/1-1.png)
 
 ------
 
