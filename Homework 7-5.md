@@ -57,6 +57,9 @@ yaml:   <br>
 ### Задание 2. Создать Ingress и обеспечить доступ к приложениям снаружи кластера
 
 1. Включить Ingress-controller в MicroK8S.
+
+![Скриншот к 1-му пункту](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-5/2-1.png)
+
 2. Создать Ingress, обеспечивающий доступ снаружи по IP-адресу кластера MicroK8S так, чтобы при запросе только по адресу открывался _frontend_ а при добавлении /api - _backend_.
 3. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
 4. Предоставить манифесты и скриншоты или вывод команды п.2.
@@ -65,7 +68,18 @@ yaml:   <br>
 <h4>Решение</h4>
 
 yaml:   <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z2/backend-deployment.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z2/frontend-deployment.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z2/backend-service.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z2/frontend-service.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-5/z2/microk8s-ingress.yaml> <br>
+
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-5/2-2.png)
 
 ------
 
