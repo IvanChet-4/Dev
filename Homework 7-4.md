@@ -43,7 +43,7 @@ yaml:   <br>
 
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-4/z1/multitool-pod.yaml>  <br>
 
-![Результат задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-4/1-1.png)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-4/1-1.png)
 
 ------
 
@@ -56,7 +56,12 @@ yaml:   <br>
 <h4>Решение</h4>
 
 yaml:   <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-4/z2/multi-container-app.yaml> <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-4/z2/multi-container-nodeport.yaml> <br>
+
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-4/2-1.png)
 
 ------
 
