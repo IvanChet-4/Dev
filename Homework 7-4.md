@@ -38,8 +38,12 @@
 <h4>Решение</h4>
 
 yaml:   <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-2/pod.yaml> <br>
 
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-4/z1/deployment-service.yaml>  <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-4/z1/multitool-pod.yaml>  <br>
+
+![Результат задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-4/1-1.png)
 
 ------
 
