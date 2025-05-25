@@ -68,8 +68,8 @@ yaml:   <br>
 
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-6/Z2/daemonset-multitool-read-syslog.yaml> <br>
 
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/2-1.png)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/2-1.png)
 
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/2-2.png)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/2-2.png)
 
 ------
