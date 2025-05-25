@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: multicontainer-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: busybox-multitool
+  template:
+    metadata:
+      labels:
+        app: busybox-multitool
+    spec:
+      containers:
+      - name: busybox
+        image: busybox:latest
+        command:
+          - /bin/sh
+          - -c
+          - |
+            while true; do
+              echo "Current time: $(date)" >> /shared-data/data.txt
+              sleep 5
+            done
+        volumeMounts:
+        - name: shared-data
+          mountPath: /shared-data
+      - name: multitool
+        image: wbitt/network-multitool:latest
+        command:
+          - /bin/sh
+          - -c
+          - |
+            while true; do
+              clear
+              echo "Content of /shared-data/data.txt:"
+              tail -f /shared-data/data.txt
+              sleep 5
+            done
+        volumeMounts:
+        - name: shared-data
+          mountPath: /shared-data
+      volumes:
+      - name: shared-data
+        emptyDir: {}
