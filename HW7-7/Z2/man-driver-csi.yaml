@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nfs-csi-controller
+  namespace: nfs-csi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nfs-csi-controller
+  template:
+    metadata:
+      labels:
+        app: nfs-csi-controller
+    spec:
+      containers:
+      - name: nfs-csi-controller
+        image: quay.io/external_storage/nfs-client-provisioner:latest # Убедитесь, что используете правильный образ.
+        volumeMounts:
+        - mountPath: /mnt/nfs # Путь к монтированному NFS.
+          name: nfs-client-root # Имя тома.
+        env:
+        - name: PROVISIONER_NAME # Имя провайдера.
+          value: "nfs.csi.k8s.io"
+        - name: NFS_SERVER # Укажите IP-адрес вашего NFS-сервера.
+          value: "192.168.1.42"
+        - name: NFS_PATH # Укажите путь к экспортируемой директории на NFS-сервере.
+          value: "/srv/nfs/kubedata"
+      volumes:
+      - name: nfs-client-root # Имя тома.
+        nfs:
+          server: 192.168.1.42
+          path: /srv/nfs/kubedata # Путь к экспортируемой директории.

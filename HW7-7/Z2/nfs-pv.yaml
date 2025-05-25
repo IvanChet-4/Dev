@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nfs-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteMany
+  nfs:
+    path: /srv/nfs/kubedata
+    server: 192.168.1.42
+  persistentVolumeReclaimPolicy: Retain # Или другой режим по вашему выбору
+  storageClassName: nfs-csi

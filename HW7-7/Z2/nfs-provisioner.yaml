@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nfs-provisioner
+  namespace: kube-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nfs-provisioner
+  template:
+    metadata:
+      labels:
+        app: nfs-provisioner
+    spec:
+      containers:
+      - name: nfs-provisioner
+        image: quay.io/external_storage/nfs-subdir-external-provisioner:latest
+        volumeMounts:
+        - mountPath: /mnt/nfs-share
+          name: nfs-share
+        env:
+        - name: PROVISIONER_NAME
+          value: nfs.csi.k8s.io
+        - name: NFS_SERVER
+          value: "192.168.1.42"
+        - name: NFS_PATH
+          value: "/srv/nfs/kubedate"
+      volumes:
+      - name: nfs-share
+        nfs:
+          server: 192.168.1.42
+          path: /srv/nfs/kubedate
