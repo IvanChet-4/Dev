@@ -42,6 +42,11 @@
 
 yaml:   <br>
 
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-6/Z1/multicontainer-deploy.yaml> <br>
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/1-1.png)
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/1-2.png)
 
 ------
 
@@ -60,5 +65,11 @@ yaml:   <br>
 <h4>Решение</h4>
 
 yaml:   <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-6/Z2/daemonset-multitool-read-syslog.yaml> <br>
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/2-1.png)
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-6/2-2.png)
 
 ------
