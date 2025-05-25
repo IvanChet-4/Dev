@@ -45,6 +45,14 @@
 
 yaml:   <br>
 
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/deployment.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/local-pv.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/local-pvc.yaml> <br>
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-1.png)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-2.png)
+
+
 ------
 
 ### Задание 2
@@ -62,5 +70,17 @@ yaml:   <br>
 <h4>Решение</h4>
 
 yaml:   <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z2/deploy.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z2/man-driver-csi.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z2/nfs-provisioner.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z2/nfs-pv.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z2/nfs-pvc.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z2/nfs-sc.yaml> <br>
+
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/2-1.png)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/2-2.png)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/2-3.png)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/2-4.png)
 
 ------
