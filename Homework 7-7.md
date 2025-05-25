@@ -52,6 +52,7 @@ yaml:   <br>
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-1.png)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-2.png)
 
+Файл остался на ноде после удаления тома т.к. используется политика Retain.  <br>
 
 ------
 
