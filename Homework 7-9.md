@@ -40,10 +40,13 @@
 
 yaml:   <br>
 
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z1/confmap.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z1/deployment.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/role.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/rolebinding.yaml> <br>
 
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-8/1-1.png)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-1.jpg)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-2.jpg)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-3.jpg)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-4.jpg)
 
 ------
 
