@@ -47,10 +47,6 @@ yaml:   <br>
 
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-8/1-1.png)
 
-
-Файл остался на ноде после удаления тома т.к. используется политика Retain.  <br>
-
-
 ------
 
 ### Задание 2. Создать приложение с вашей веб-страницей, доступной по HTTPS 
@@ -72,10 +68,6 @@ yaml:   <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z2/service.yaml> <br>
 
 ![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-8/2-1.png)
-
-
-Файл остался на ноде после удаления тома т.к. используется политика Retain.  <br>
-
 
 ------
 
