@@ -40,12 +40,13 @@
 
 yaml:   <br>
 
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/deployment.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/local-pv.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/local-pvc.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z1/confmap.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z1/deployment.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z1/service.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z1/web-content.yaml> <br>
 
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-1.png)
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-2.png)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-8/1-1.png)
+
 
 Файл остался на ноде после удаления тома т.к. используется политика Retain.  <br>
 
@@ -65,12 +66,13 @@ yaml:   <br>
 
 yaml:   <br>
 
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/deployment.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/local-pv.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-7/Z1/local-pvc.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z2/confmap.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z2/deployment.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z2/ingress.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-8/Z2/service.yaml> <br>
 
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-1.png)
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-7/1-2.png)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-8/2-1.png)
+
 
 Файл остался на ноде после удаления тома т.к. используется политика Retain.  <br>
 
