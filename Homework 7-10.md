@@ -37,10 +37,12 @@
 
 yaml:   <br>
 
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/role.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/rolebinding.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z1/myapp/Chart.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z1/myapp/values.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z1/myapp/templates/backend-deployment.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z1/myapp/templates/frontend-deployment.yaml> <br>
 
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-1.jpg)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-10/1-1.jpg)
 
 
 ------
@@ -55,11 +57,13 @@ yaml:   <br>
 
 yaml:   <br>
 
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/role.yaml> <br>
-<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/rolebinding.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z2/myapp/Chart.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z2/myapp/values-app1.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z2/myapp/values-app2.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-10/Z2/myapp/templates/deployments.yaml> <br>
 
-![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-1.jpg)
-
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-10/2-1.jpg)
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-10/2-2.jpg)
 
 
 ### Правила приёма работы
