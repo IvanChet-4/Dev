@@ -1,3 +1,8 @@
+<h1>Homework 7-10 </h1> <br>
+<br>
+<br>
+
+
 # Домашнее задание к занятию «Helm»
 
 ### Цель задания
@@ -27,12 +32,35 @@
 2. Каждый компонент приложения деплоится отдельным deployment’ом или statefulset’ом.
 3. В переменных чарта измените образ приложения для изменения версии.
 
+
+<h4>Решение</h4>
+
+yaml:   <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/role.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/rolebinding.yaml> <br>
+
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-1.jpg)
+
+
 ------
 ### Задание 2. Запустить две версии в разных неймспейсах
 
 1. Подготовив чарт, необходимо его проверить. Запуститe несколько копий приложения.
 2. Одну версию в namespace=app1, вторую версию в том же неймспейсе, третью версию в namespace=app2.
 3. Продемонстрируйте результат.
+
+
+<h4>Решение</h4>
+
+yaml:   <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/role.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW7-9/Z1/rolebinding.yaml> <br>
+
+![Результат решения задачи 2](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%207-9/1-1.jpg)
+
+
 
 ### Правила приёма работы
 
