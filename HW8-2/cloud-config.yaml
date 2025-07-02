@@ -1,0 +1,25 @@
+#cloud-config
+write_files:
+  - path: /var/www/html/index.html
+    content: |
+      <html>
+      <body>
+        <h1>Welcome to LAMP</h1>
+        <p>This is a test web page served from a LAMP on Yandex Cloud </p>
+        <img src="https://storage.yandexcloud.net/${student_name}-${date}/${img_name}" alt="Image">
+      </body>
+      </html>
+    owner: www-data:www-data
+    permissions: '0644'
+
+runcmd:
+  - systemctl restart apache2
+  - systemctl enable apache2
+
+users:
+  - name: ${ssh_user}
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh_authorized_keys:
+      - ${ssh_public_key}
