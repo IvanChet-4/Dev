@@ -43,12 +43,14 @@
 - [Группа ВМ с сетевым балансировщиком](https://cloud.yandex.ru/docs/compute/operations/instance-groups/create-with-balancer).
 
 
-<h4>Решение</h4>
+### <h4>Решение</h4>
 
-yaml:   <br>
+### tf files:  <br>
 
 <> <br>
 <> <br>
+
+### screenshots:
 
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-1.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-2.jpg)
