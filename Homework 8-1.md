@@ -36,10 +36,12 @@ Resource Terraform для Yandex Cloud:
 
 <h4>Решение</h4>
 
-yaml:   <br>
+tf files:   <br>
 
 <https://github.com/IvanChet-4/Dev/blob/main/HW8-1/main.tf> <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW8-1/variables.tf> <br>
+
+screenshots:   <br>
 
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-1.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-2.jpg)
