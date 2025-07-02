@@ -41,14 +41,14 @@ tf files:   <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW8-1/main.tf> <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW8-1/variables.tf> <br>
 
-###screenshots:   <br>
+### screenshots:   <br>
 
-###terraform init, plan, apply:
+### terraform init, plan, apply:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-1.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-2.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-3.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-4.jpg)
-###Результат выполнения:
+### Результат выполнения:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-5.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-6.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-7.jpg)
