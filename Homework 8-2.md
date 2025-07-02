@@ -58,7 +58,9 @@
 
 ### screenshots:
 
+### Скачивание файла из интернета:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-1.jpg)
+### Просмотр добавленного в YC:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-2.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-3.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-4.jpg)
