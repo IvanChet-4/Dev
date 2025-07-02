@@ -50,8 +50,9 @@ tf files:   <br>
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-4.jpg)
 ### Результат выполнения:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-5.jpg)
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-6.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-7.jpg)
+### Результат выполнения:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-6.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-8.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-9.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-10.jpg)
