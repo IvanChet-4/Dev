@@ -58,6 +58,8 @@
 
 ### screenshots:
 
+### Запуск terraform init, plan, apply:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-6.jpg)
 ### Скачивание файла из интернета:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-1.jpg)
 ### Просмотр добавленного в YC:
@@ -65,7 +67,6 @@
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-3.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-4.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-5.jpg)
-![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-6.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-7.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-8.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-9.jpg)
