@@ -3,9 +3,9 @@ yandex_token = "" <br>
 cloud_id     = "" <br>
 folder_id    = "" <br>
 service_account_id = "" <br>
+ <br> <br>
 
-
-Понадобилась настройка доступа:
-yc resource-manager cloud add-access-binding ID-Cloud \
-  --role admin \
-  --subject serviceAccount:ID
+Понадобилась настройка доступа: <br>
+yc resource-manager cloud add-access-binding ID-Cloud \ <br>
+  --role admin \ <br>
+  --subject serviceAccount:ID <br>
