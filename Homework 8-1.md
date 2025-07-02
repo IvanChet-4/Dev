@@ -34,9 +34,9 @@ Resource Terraform для Yandex Cloud:
 - [Compute Instance](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/compute_instance).
 
 
-<h4>Решение</h4>
+### <h4>Решение</h4>
 
-tf files:   <br>
+### tf files:   <br>
 
 <https://github.com/IvanChet-4/Dev/blob/main/HW8-1/main.tf> <br>
 <https://github.com/IvanChet-4/Dev/blob/main/HW8-1/variables.tf> <br>
@@ -51,7 +51,7 @@ tf files:   <br>
 ### Результат выполнения:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-5.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-7.jpg)
-### Результат выполнения:
+### Пинги и подключения по ssh:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-6.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-8.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-1/1-9.jpg)
