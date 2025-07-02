@@ -45,10 +45,16 @@
 
 ### <h4>Решение</h4>
 
-### tf files:  <br>
+### tf, png, yaml files:  <br>
 
-<> <br>
-<> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/cloud-config.yaml> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/images3242.png> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/loadbalancer.tf> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/main.tf> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/provider.tf> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/storage.tf> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-2/variables.tf> <br>
+
 
 ### screenshots:
 
@@ -62,6 +68,7 @@
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-8.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-9.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-10.jpg)
+### Удаление ВМ:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-11.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-12.jpg)
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-2/1-13.jpg)
