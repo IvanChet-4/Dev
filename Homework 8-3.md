@@ -51,14 +51,20 @@
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-4.jpg)
 ### Применение симметричного ключа:
 ![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-5.jpg)
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
-![Результат решения задачи 1]()
+### Генерация сертификата:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-6.jpg)
+### Добавление сертификата:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-7.jpg)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-8.jpg)
+### Добавление домена в Cloud-DNS:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-9.jpg)
+### Применение сертификата для https:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-10.jpg)
+### Результат:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-11.jpg)
+### Доп. пример моей vpc на beget с прикрученным сертификатом от Lets Encrypt:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-12.jpg)
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-13.jpg)
 
 
 
