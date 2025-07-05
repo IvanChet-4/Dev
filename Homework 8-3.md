@@ -30,8 +30,14 @@
 
 ### tf files:   <br>
 
-<> <br>
-<> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-3/main.tf> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-3/provider.tf> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-3/variables.tf> <br>
+
+### Контент для bucket:   <br>
+
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-3/index.html> <br>
+<https://github.com/IvanChet-4/Dev/blob/main/HW8-3/images3242.png> <br>
 
 ### screenshots:   <br>
 
