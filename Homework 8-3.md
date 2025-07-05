@@ -41,8 +41,26 @@
 
 ### screenshots:   <br>
 
-### terraform init, plan, apply:
+### terraform init:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-1.jpg)
+### terraform plan:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-2.jpg)
+### terraform apply:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-3.jpg)
+### Симметричный ключ:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-4.jpg)
+### Применение симметричного ключа:
+![Результат решения задачи 1](https://github.com/IvanChet-4/Dev/blob/main/images/Homework%208-3/1-5.jpg)
 ![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+![Результат решения задачи 1]()
+
+
 
 
 
